@@ -1,0 +1,4294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eae8ed60f41f40972e20e3135fff558f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eae8ed60f41f40972e20e3135fff558f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eae8ed60f41f40972e20e3135fff558f = L.map(
+                "map_eae8ed60f41f40972e20e3135fff558f",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0a013a401ceeb0e62dee97161be3b712 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_0a013a401ceeb0e62dee97161be3b712.addTo(map_eae8ed60f41f40972e20e3135fff558f);
+        
+    
+            var marker_cluster_0e7e7152570790c48c4cccc81628187f = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_83b480bfb88d1c7dff52fe3cdc1c90af = L.marker(
+                [55.670249, 10.3333283],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_ddbf42f5f4ae8d035f493ded8da00d9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c84625180462511f2e58f8f058fa020 = $(`<div id="html_2c84625180462511f2e58f8f058fa020" style="width: 100.0%; height: 100.0%;"><strong>Denmark</strong><br>GDP per Capita: 1.44178<br>Healthy Life Expectancy: 0.79504</div>`)[0];
+                popup_ddbf42f5f4ae8d035f493ded8da00d9b.setContent(html_2c84625180462511f2e58f8f058fa020);
+            
+        
+
+        marker_83b480bfb88d1c7dff52fe3cdc1c90af.bindPopup(popup_ddbf42f5f4ae8d035f493ded8da00d9b)
+        ;
+
+        
+    
+    
+            marker_83b480bfb88d1c7dff52fe3cdc1c90af.bindTooltip(
+                `<div>
+                     Denmark
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c53f10dc0e5822dea59851347fc75b53 = L.marker(
+                [46.7985624, 8.2319736],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_756b1809100565c7982186f8cc96a0a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ee192cf51073b29f6947e4b94c29d9f = $(`<div id="html_2ee192cf51073b29f6947e4b94c29d9f" style="width: 100.0%; height: 100.0%;"><strong>Switzerland</strong><br>GDP per Capita: 1.52733<br>Healthy Life Expectancy: 0.86303</div>`)[0];
+                popup_756b1809100565c7982186f8cc96a0a7.setContent(html_2ee192cf51073b29f6947e4b94c29d9f);
+            
+        
+
+        marker_c53f10dc0e5822dea59851347fc75b53.bindPopup(popup_756b1809100565c7982186f8cc96a0a7)
+        ;
+
+        
+    
+    
+            marker_c53f10dc0e5822dea59851347fc75b53.bindTooltip(
+                `<div>
+                     Switzerland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1329f99dab24f9f52a02a221e9ecebe3 = L.marker(
+                [64.9841821, -18.1059013],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0e454a237a3a37a7e65ae9e3de8c68fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d0e6f2909ad75d0102b276c534ffd7d = $(`<div id="html_8d0e6f2909ad75d0102b276c534ffd7d" style="width: 100.0%; height: 100.0%;"><strong>Iceland</strong><br>GDP per Capita: 1.42666<br>Healthy Life Expectancy: 0.86733</div>`)[0];
+                popup_0e454a237a3a37a7e65ae9e3de8c68fa.setContent(html_8d0e6f2909ad75d0102b276c534ffd7d);
+            
+        
+
+        marker_1329f99dab24f9f52a02a221e9ecebe3.bindPopup(popup_0e454a237a3a37a7e65ae9e3de8c68fa)
+        ;
+
+        
+    
+    
+            marker_1329f99dab24f9f52a02a221e9ecebe3.bindTooltip(
+                `<div>
+                     Iceland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_887537e71e3ad976156330f81c076855 = L.marker(
+                [64.5731537, 11.52803643954819],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_31841ade09f2ad75f8ec445720af40a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d57cb32f608b4d3fde7d1aa296364a9 = $(`<div id="html_2d57cb32f608b4d3fde7d1aa296364a9" style="width: 100.0%; height: 100.0%;"><strong>Norway</strong><br>GDP per Capita: 1.57744<br>Healthy Life Expectancy: 0.79579</div>`)[0];
+                popup_31841ade09f2ad75f8ec445720af40a4.setContent(html_2d57cb32f608b4d3fde7d1aa296364a9);
+            
+        
+
+        marker_887537e71e3ad976156330f81c076855.bindPopup(popup_31841ade09f2ad75f8ec445720af40a4)
+        ;
+
+        
+    
+    
+            marker_887537e71e3ad976156330f81c076855.bindTooltip(
+                `<div>
+                     Norway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d588436642a944d5a331dd48f252e7ef = L.marker(
+                [63.2467777, 25.9209164],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_c25cc1dd89a8d32607f63fea39f5bee5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d80c3b68e5ab5467a92cbd981a5599a = $(`<div id="html_4d80c3b68e5ab5467a92cbd981a5599a" style="width: 100.0%; height: 100.0%;"><strong>Finland</strong><br>GDP per Capita: 1.40598<br>Healthy Life Expectancy: 0.81091</div>`)[0];
+                popup_c25cc1dd89a8d32607f63fea39f5bee5.setContent(html_4d80c3b68e5ab5467a92cbd981a5599a);
+            
+        
+
+        marker_d588436642a944d5a331dd48f252e7ef.bindPopup(popup_c25cc1dd89a8d32607f63fea39f5bee5)
+        ;
+
+        
+    
+    
+            marker_d588436642a944d5a331dd48f252e7ef.bindTooltip(
+                `<div>
+                     Finland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_173df37be708886689cd70d1645548ee = L.marker(
+                [61.0666922, -107.991707],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_3426de82c6d2fa78974f51ea8099d021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_605be18f3b3fc719b17e0c18966c1e16 = $(`<div id="html_605be18f3b3fc719b17e0c18966c1e16" style="width: 100.0%; height: 100.0%;"><strong>Canada</strong><br>GDP per Capita: 1.44015<br>Healthy Life Expectancy: 0.8276</div>`)[0];
+                popup_3426de82c6d2fa78974f51ea8099d021.setContent(html_605be18f3b3fc719b17e0c18966c1e16);
+            
+        
+
+        marker_173df37be708886689cd70d1645548ee.bindPopup(popup_3426de82c6d2fa78974f51ea8099d021)
+        ;
+
+        
+    
+    
+            marker_173df37be708886689cd70d1645548ee.bindTooltip(
+                `<div>
+                     Canada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59abe88673a54d40090788395cb8cdff = L.marker(
+                [52.2434979, 5.6343227],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_c4d2cf25df3db76edbc03692b6c36afa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_151fb7824bf6302046c6a9dad47f7ddb = $(`<div id="html_151fb7824bf6302046c6a9dad47f7ddb" style="width: 100.0%; height: 100.0%;"><strong>Netherlands</strong><br>GDP per Capita: 1.46468<br>Healthy Life Expectancy: 0.81231</div>`)[0];
+                popup_c4d2cf25df3db76edbc03692b6c36afa.setContent(html_151fb7824bf6302046c6a9dad47f7ddb);
+            
+        
+
+        marker_59abe88673a54d40090788395cb8cdff.bindPopup(popup_c4d2cf25df3db76edbc03692b6c36afa)
+        ;
+
+        
+    
+    
+            marker_59abe88673a54d40090788395cb8cdff.bindTooltip(
+                `<div>
+                     Netherlands
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1f2521c2c3dd7395eda0bd7824fa422 = L.marker(
+                [-41.5000831, 172.8344077],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_d50635a033e40c2b06711e44b5e5a7f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14c92bc87638617e0e31f4e3d2bfe625 = $(`<div id="html_14c92bc87638617e0e31f4e3d2bfe625" style="width: 100.0%; height: 100.0%;"><strong>New Zealand</strong><br>GDP per Capita: 1.36066<br>Healthy Life Expectancy: 0.83096</div>`)[0];
+                popup_d50635a033e40c2b06711e44b5e5a7f5.setContent(html_14c92bc87638617e0e31f4e3d2bfe625);
+            
+        
+
+        marker_d1f2521c2c3dd7395eda0bd7824fa422.bindPopup(popup_d50635a033e40c2b06711e44b5e5a7f5)
+        ;
+
+        
+    
+    
+            marker_d1f2521c2c3dd7395eda0bd7824fa422.bindTooltip(
+                `<div>
+                     New Zealand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf79e2897aaadf2b14552b7d32291fe3 = L.marker(
+                [-24.7761086, 134.755],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_b505b013033f0aed8bc4fd31ce78dd6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f84c8d56d2a3dae8db3b7605953b3a96 = $(`<div id="html_f84c8d56d2a3dae8db3b7605953b3a96" style="width: 100.0%; height: 100.0%;"><strong>Australia</strong><br>GDP per Capita: 1.44443<br>Healthy Life Expectancy: 0.8512</div>`)[0];
+                popup_b505b013033f0aed8bc4fd31ce78dd6a.setContent(html_f84c8d56d2a3dae8db3b7605953b3a96);
+            
+        
+
+        marker_cf79e2897aaadf2b14552b7d32291fe3.bindPopup(popup_b505b013033f0aed8bc4fd31ce78dd6a)
+        ;
+
+        
+    
+    
+            marker_cf79e2897aaadf2b14552b7d32291fe3.bindTooltip(
+                `<div>
+                     Australia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d51c8911c7060df5090c03c308bfafeb = L.marker(
+                [30.8124247, 34.8594762],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_6cabb954d47d570161aa5cdc3302de69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54f1bc7b517503aa511c01602380d067 = $(`<div id="html_54f1bc7b517503aa511c01602380d067" style="width: 100.0%; height: 100.0%;"><strong>Israel</strong><br>GDP per Capita: 1.33766<br>Healthy Life Expectancy: 0.84917</div>`)[0];
+                popup_6cabb954d47d570161aa5cdc3302de69.setContent(html_54f1bc7b517503aa511c01602380d067);
+            
+        
+
+        marker_d51c8911c7060df5090c03c308bfafeb.bindPopup(popup_6cabb954d47d570161aa5cdc3302de69)
+        ;
+
+        
+    
+    
+            marker_d51c8911c7060df5090c03c308bfafeb.bindTooltip(
+                `<div>
+                     Israel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab35ae11d27c519b9265f6bfdab9642d = L.marker(
+                [47.59397, 14.12456],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_facf64ce0f26c322a1f7d08dc9ff5fd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_708eec74f800bfd3addea1603798b3cd = $(`<div id="html_708eec74f800bfd3addea1603798b3cd" style="width: 100.0%; height: 100.0%;"><strong>Austria</strong><br>GDP per Capita: 1.45038<br>Healthy Life Expectancy: 0.80565</div>`)[0];
+                popup_facf64ce0f26c322a1f7d08dc9ff5fd9.setContent(html_708eec74f800bfd3addea1603798b3cd);
+            
+        
+
+        marker_ab35ae11d27c519b9265f6bfdab9642d.bindPopup(popup_facf64ce0f26c322a1f7d08dc9ff5fd9)
+        ;
+
+        
+    
+    
+            marker_ab35ae11d27c519b9265f6bfdab9642d.bindTooltip(
+                `<div>
+                     Austria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_553bc310136ca4af4e61c637d43d22ce = L.marker(
+                [10.2735633, -84.0739102],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_91574343465111b735b9e27c628fb6fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48a6f29de412c51fc1ed7b6b940eac8c = $(`<div id="html_48a6f29de412c51fc1ed7b6b940eac8c" style="width: 100.0%; height: 100.0%;"><strong>Costa Rica</strong><br>GDP per Capita: 1.06879<br>Healthy Life Expectancy: 0.76146</div>`)[0];
+                popup_91574343465111b735b9e27c628fb6fa.setContent(html_48a6f29de412c51fc1ed7b6b940eac8c);
+            
+        
+
+        marker_553bc310136ca4af4e61c637d43d22ce.bindPopup(popup_91574343465111b735b9e27c628fb6fa)
+        ;
+
+        
+    
+    
+            marker_553bc310136ca4af4e61c637d43d22ce.bindTooltip(
+                `<div>
+                     Costa Rica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8029a5cdc82a07eb741660c17309dc3 = L.marker(
+                [51.1638175, 10.4478313],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_b34006a7a4f6566507289dfb85769003 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be73ced3cbcdfe2374a7f9e31202d3e8 = $(`<div id="html_be73ced3cbcdfe2374a7f9e31202d3e8" style="width: 100.0%; height: 100.0%;"><strong>Germany</strong><br>GDP per Capita: 1.44787<br>Healthy Life Expectancy: 0.81487</div>`)[0];
+                popup_b34006a7a4f6566507289dfb85769003.setContent(html_be73ced3cbcdfe2374a7f9e31202d3e8);
+            
+        
+
+        marker_f8029a5cdc82a07eb741660c17309dc3.bindPopup(popup_b34006a7a4f6566507289dfb85769003)
+        ;
+
+        
+    
+    
+            marker_f8029a5cdc82a07eb741660c17309dc3.bindTooltip(
+                `<div>
+                     Germany
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b15496353b2d66f9dc417d9bd58abf4 = L.marker(
+                [-10.3333333, -53.2],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_853fa109321481f553c3e07ad20c69c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e92d8d212e4f35d31ac517f8865ac6b0 = $(`<div id="html_e92d8d212e4f35d31ac517f8865ac6b0" style="width: 100.0%; height: 100.0%;"><strong>Brazil</strong><br>GDP per Capita: 1.08754<br>Healthy Life Expectancy: 0.61415</div>`)[0];
+                popup_853fa109321481f553c3e07ad20c69c9.setContent(html_e92d8d212e4f35d31ac517f8865ac6b0);
+            
+        
+
+        marker_8b15496353b2d66f9dc417d9bd58abf4.bindPopup(popup_853fa109321481f553c3e07ad20c69c9)
+        ;
+
+        
+    
+    
+            marker_8b15496353b2d66f9dc417d9bd58abf4.bindTooltip(
+                `<div>
+                     Brazil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fc27ed770bff4cf74b204bbf462baa2 = L.marker(
+                [50.6402809, 4.6667145],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_12d90a330fcf0777ef42771808c2ac24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26f541459afa767d61ec36bbbbfbc030 = $(`<div id="html_26f541459afa767d61ec36bbbbfbc030" style="width: 100.0%; height: 100.0%;"><strong>Belgium</strong><br>GDP per Capita: 1.42539<br>Healthy Life Expectancy: 0.81959</div>`)[0];
+                popup_12d90a330fcf0777ef42771808c2ac24.setContent(html_26f541459afa767d61ec36bbbbfbc030);
+            
+        
+
+        marker_9fc27ed770bff4cf74b204bbf462baa2.bindPopup(popup_12d90a330fcf0777ef42771808c2ac24)
+        ;
+
+        
+    
+    
+            marker_9fc27ed770bff4cf74b204bbf462baa2.bindTooltip(
+                `<div>
+                     Belgium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31de7932a6a221ee39af695902037ad4 = L.marker(
+                [52.865196, -7.9794599],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_4c64bd707c36c11a4bc002ae5c914516 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9808ed8929c37df4049340c8d394ce6 = $(`<div id="html_c9808ed8929c37df4049340c8d394ce6" style="width: 100.0%; height: 100.0%;"><strong>Ireland</strong><br>GDP per Capita: 1.48341<br>Healthy Life Expectancy: 0.81455</div>`)[0];
+                popup_4c64bd707c36c11a4bc002ae5c914516.setContent(html_c9808ed8929c37df4049340c8d394ce6);
+            
+        
+
+        marker_31de7932a6a221ee39af695902037ad4.bindPopup(popup_4c64bd707c36c11a4bc002ae5c914516)
+        ;
+
+        
+    
+    
+            marker_31de7932a6a221ee39af695902037ad4.bindTooltip(
+                `<div>
+                     Ireland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8595793c68b622ea0b88ec17d4867484 = L.marker(
+                [49.6112768, 6.129799],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_260f946b49d5a68a51a16998e23da595 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f88217a1516d9f443cbda7bae62b2a68 = $(`<div id="html_f88217a1516d9f443cbda7bae62b2a68" style="width: 100.0%; height: 100.0%;"><strong>Luxembourg</strong><br>GDP per Capita: 1.69752<br>Healthy Life Expectancy: 0.84542</div>`)[0];
+                popup_260f946b49d5a68a51a16998e23da595.setContent(html_f88217a1516d9f443cbda7bae62b2a68);
+            
+        
+
+        marker_8595793c68b622ea0b88ec17d4867484.bindPopup(popup_260f946b49d5a68a51a16998e23da595)
+        ;
+
+        
+    
+    
+            marker_8595793c68b622ea0b88ec17d4867484.bindTooltip(
+                `<div>
+                     Luxembourg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94fc3129f118811aaba455981624c9c2 = L.marker(
+                [19.4326296, -99.1331785],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_625cdc6ff45b8ae9486882d0eb94fe70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1bb6e0bca1b0b1237e2e0f5b2317412 = $(`<div id="html_a1bb6e0bca1b0b1237e2e0f5b2317412" style="width: 100.0%; height: 100.0%;"><strong>Mexico</strong><br>GDP per Capita: 1.11508<br>Healthy Life Expectancy: 0.71143</div>`)[0];
+                popup_625cdc6ff45b8ae9486882d0eb94fe70.setContent(html_a1bb6e0bca1b0b1237e2e0f5b2317412);
+            
+        
+
+        marker_94fc3129f118811aaba455981624c9c2.bindPopup(popup_625cdc6ff45b8ae9486882d0eb94fe70)
+        ;
+
+        
+    
+    
+            marker_94fc3129f118811aaba455981624c9c2.bindTooltip(
+                `<div>
+                     Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1407ec7224116a33a73533de13febef7 = L.marker(
+                [1.357107, 103.8194992],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_ad5d5f499ccd44241a9ecd3f66d42066 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ce52ed540a76de4854b848e8a40f81e = $(`<div id="html_4ce52ed540a76de4854b848e8a40f81e" style="width: 100.0%; height: 100.0%;"><strong>Singapore</strong><br>GDP per Capita: 1.64555<br>Healthy Life Expectancy: 0.94719</div>`)[0];
+                popup_ad5d5f499ccd44241a9ecd3f66d42066.setContent(html_4ce52ed540a76de4854b848e8a40f81e);
+            
+        
+
+        marker_1407ec7224116a33a73533de13febef7.bindPopup(popup_ad5d5f499ccd44241a9ecd3f66d42066)
+        ;
+
+        
+    
+    
+            marker_1407ec7224116a33a73533de13febef7.bindTooltip(
+                `<div>
+                     Singapore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bb10e44430c02d525422539aa28e505 = L.marker(
+                [54.7023545, -3.2765753],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0c5cef778e41c17f5abe2ee577214b19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97aedbbb084c64ee0f6b198c9d23b2bc = $(`<div id="html_97aedbbb084c64ee0f6b198c9d23b2bc" style="width: 100.0%; height: 100.0%;"><strong>United Kingdom</strong><br>GDP per Capita: 1.40283<br>Healthy Life Expectancy: 0.80991</div>`)[0];
+                popup_0c5cef778e41c17f5abe2ee577214b19.setContent(html_97aedbbb084c64ee0f6b198c9d23b2bc);
+            
+        
+
+        marker_2bb10e44430c02d525422539aa28e505.bindPopup(popup_0c5cef778e41c17f5abe2ee577214b19)
+        ;
+
+        
+    
+    
+            marker_2bb10e44430c02d525422539aa28e505.bindTooltip(
+                `<div>
+                     United Kingdom
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6a166bf99f01386d2ba9faa523e96e3 = L.marker(
+                [-31.7613365, -71.3187697],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_cf12d89d7c9f6d94f47edeba8c72b8e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42391b4c84f681822a2caae18816b783 = $(`<div id="html_42391b4c84f681822a2caae18816b783" style="width: 100.0%; height: 100.0%;"><strong>Chile</strong><br>GDP per Capita: 1.2167<br>Healthy Life Expectancy: 0.81883</div>`)[0];
+                popup_cf12d89d7c9f6d94f47edeba8c72b8e0.setContent(html_42391b4c84f681822a2caae18816b783);
+            
+        
+
+        marker_a6a166bf99f01386d2ba9faa523e96e3.bindPopup(popup_cf12d89d7c9f6d94f47edeba8c72b8e0)
+        ;
+
+        
+    
+    
+            marker_a6a166bf99f01386d2ba9faa523e96e3.bindTooltip(
+                `<div>
+                     Chile
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fbc135e220c1d13697ed1bbde207b7c = L.marker(
+                [8.559559, -81.1308434],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_6541b5929386244962869bde8faf9fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_687e09e60a7c2d6743586dccc8b04ab6 = $(`<div id="html_687e09e60a7c2d6743586dccc8b04ab6" style="width: 100.0%; height: 100.0%;"><strong>Panama</strong><br>GDP per Capita: 1.18306<br>Healthy Life Expectancy: 0.70835</div>`)[0];
+                popup_6541b5929386244962869bde8faf9fe5.setContent(html_687e09e60a7c2d6743586dccc8b04ab6);
+            
+        
+
+        marker_2fbc135e220c1d13697ed1bbde207b7c.bindPopup(popup_6541b5929386244962869bde8faf9fe5)
+        ;
+
+        
+    
+    
+            marker_2fbc135e220c1d13697ed1bbde207b7c.bindTooltip(
+                `<div>
+                     Panama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39f3ca6e20d8ae4ff69c4d1a163d89a6 = L.marker(
+                [-34.9964963, -64.9672817],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_74604a85ebdaebec2cd6ac1e6e9e0c6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21d81cf7260b2a19a2f73652b8551608 = $(`<div id="html_21d81cf7260b2a19a2f73652b8551608" style="width: 100.0%; height: 100.0%;"><strong>Argentina</strong><br>GDP per Capita: 1.15137<br>Healthy Life Expectancy: 0.69711</div>`)[0];
+                popup_74604a85ebdaebec2cd6ac1e6e9e0c6f.setContent(html_21d81cf7260b2a19a2f73652b8551608);
+            
+        
+
+        marker_39f3ca6e20d8ae4ff69c4d1a163d89a6.bindPopup(popup_74604a85ebdaebec2cd6ac1e6e9e0c6f)
+        ;
+
+        
+    
+    
+            marker_39f3ca6e20d8ae4ff69c4d1a163d89a6.bindTooltip(
+                `<div>
+                     Argentina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_675a7bb0f1b96074918ec6a05aa14c5b = L.marker(
+                [49.7439047, 15.3381061],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_aad7328dacd562254701175da81122a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d3f66bff3d1fe23a5df95ab59719ae7 = $(`<div id="html_2d3f66bff3d1fe23a5df95ab59719ae7" style="width: 100.0%; height: 100.0%;"><strong>Czech Republic</strong><br>GDP per Capita: 1.30915<br>Healthy Life Expectancy: 0.76376</div>`)[0];
+                popup_aad7328dacd562254701175da81122a6.setContent(html_2d3f66bff3d1fe23a5df95ab59719ae7);
+            
+        
+
+        marker_675a7bb0f1b96074918ec6a05aa14c5b.bindPopup(popup_aad7328dacd562254701175da81122a6)
+        ;
+
+        
+    
+    
+            marker_675a7bb0f1b96074918ec6a05aa14c5b.bindTooltip(
+                `<div>
+                     Czech Republic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70c3bbae3dcbe7c6238c0937573ad04d = L.marker(
+                [24.0002488, 53.9994829],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0163194d2559a67b1ec4007750ceffd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24281024e1c1e32a7864c298cc7cd2bc = $(`<div id="html_24281024e1c1e32a7864c298cc7cd2bc" style="width: 100.0%; height: 100.0%;"><strong>United Arab Emirates</strong><br>GDP per Capita: 1.57352<br>Healthy Life Expectancy: 0.72993</div>`)[0];
+                popup_0163194d2559a67b1ec4007750ceffd1.setContent(html_24281024e1c1e32a7864c298cc7cd2bc);
+            
+        
+
+        marker_70c3bbae3dcbe7c6238c0937573ad04d.bindPopup(popup_0163194d2559a67b1ec4007750ceffd1)
+        ;
+
+        
+    
+    
+            marker_70c3bbae3dcbe7c6238c0937573ad04d.bindTooltip(
+                `<div>
+                     United Arab Emirates
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac125c2ec0c7f5e6d26f8458e0adfd7a = L.marker(
+                [-32.8755548, -56.0201525],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_5e7c153d5f3cc6a8ec9962eaeb1c9a42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fef0d76f9813fad130f1d206dc707f2 = $(`<div id="html_2fef0d76f9813fad130f1d206dc707f2" style="width: 100.0%; height: 100.0%;"><strong>Uruguay</strong><br>GDP per Capita: 1.18157<br>Healthy Life Expectancy: 0.72183</div>`)[0];
+                popup_5e7c153d5f3cc6a8ec9962eaeb1c9a42.setContent(html_2fef0d76f9813fad130f1d206dc707f2);
+            
+        
+
+        marker_ac125c2ec0c7f5e6d26f8458e0adfd7a.bindPopup(popup_5e7c153d5f3cc6a8ec9962eaeb1c9a42)
+        ;
+
+        
+    
+    
+            marker_ac125c2ec0c7f5e6d26f8458e0adfd7a.bindTooltip(
+                `<div>
+                     Uruguay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a23e080a1736b4c3eb25766c4470d750 = L.marker(
+                [35.8885993, 14.4476911],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_255b0f81daa48ad788e76947d76f61ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03cc2b74d0d892026c710311b23d68c0 = $(`<div id="html_03cc2b74d0d892026c710311b23d68c0" style="width: 100.0%; height: 100.0%;"><strong>Malta</strong><br>GDP per Capita: 1.30782<br>Healthy Life Expectancy: 0.80315</div>`)[0];
+                popup_255b0f81daa48ad788e76947d76f61ea.setContent(html_03cc2b74d0d892026c710311b23d68c0);
+            
+        
+
+        marker_a23e080a1736b4c3eb25766c4470d750.bindPopup(popup_255b0f81daa48ad788e76947d76f61ea)
+        ;
+
+        
+    
+    
+            marker_a23e080a1736b4c3eb25766c4470d750.bindTooltip(
+                `<div>
+                     Malta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_132ea2793681c5b738e29714f9ae7294 = L.marker(
+                [4.099917, -72.9088133],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_b396be13b3493461de2be26302c301f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_693caae85d2598a88d01953f1359a8b0 = $(`<div id="html_693caae85d2598a88d01953f1359a8b0" style="width: 100.0%; height: 100.0%;"><strong>Colombia</strong><br>GDP per Capita: 1.03032<br>Healthy Life Expectancy: 0.59659</div>`)[0];
+                popup_b396be13b3493461de2be26302c301f2.setContent(html_693caae85d2598a88d01953f1359a8b0);
+            
+        
+
+        marker_132ea2793681c5b738e29714f9ae7294.bindPopup(popup_b396be13b3493461de2be26302c301f2)
+        ;
+
+        
+    
+    
+            marker_132ea2793681c5b738e29714f9ae7294.bindTooltip(
+                `<div>
+                     Colombia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48db1915f758adef77b9fa48ba73ce3d = L.marker(
+                [46.603354, 1.8883335],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_875d8a77ec1909f0b1065b8cf2db975f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5d65396513bab057256ee77aa740d02 = $(`<div id="html_b5d65396513bab057256ee77aa740d02" style="width: 100.0%; height: 100.0%;"><strong>France</strong><br>GDP per Capita: 1.39488<br>Healthy Life Expectancy: 0.83795</div>`)[0];
+                popup_875d8a77ec1909f0b1065b8cf2db975f.setContent(html_b5d65396513bab057256ee77aa740d02);
+            
+        
+
+        marker_48db1915f758adef77b9fa48ba73ce3d.bindPopup(popup_875d8a77ec1909f0b1065b8cf2db975f)
+        ;
+
+        
+    
+    
+            marker_48db1915f758adef77b9fa48ba73ce3d.bindTooltip(
+                `<div>
+                     France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5967719876ecc83d119af6a65457d8b6 = L.marker(
+                [14.8971921, 100.83273],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_e0f1ad6e32f7b67728a2d50b1bb70755 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a271b658dffd5e02a31b1c7fdd039dd = $(`<div id="html_0a271b658dffd5e02a31b1c7fdd039dd" style="width: 100.0%; height: 100.0%;"><strong>Thailand</strong><br>GDP per Capita: 1.0893<br>Healthy Life Expectancy: 0.64915</div>`)[0];
+                popup_e0f1ad6e32f7b67728a2d50b1bb70755.setContent(html_0a271b658dffd5e02a31b1c7fdd039dd);
+            
+        
+
+        marker_5967719876ecc83d119af6a65457d8b6.bindPopup(popup_e0f1ad6e32f7b67728a2d50b1bb70755)
+        ;
+
+        
+    
+    
+            marker_5967719876ecc83d119af6a65457d8b6.bindTooltip(
+                `<div>
+                     Thailand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1451b6de95adc3b4d0a19f8bd9bb6916 = L.marker(
+                [25.6242618, 42.3528328],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_34cfdb7bebda8ec7e0756de4caee310a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbdf6178d796438bcf8054e133e856a4 = $(`<div id="html_bbdf6178d796438bcf8054e133e856a4" style="width: 100.0%; height: 100.0%;"><strong>Saudi Arabia</strong><br>GDP per Capita: 1.48953<br>Healthy Life Expectancy: 0.59267</div>`)[0];
+                popup_34cfdb7bebda8ec7e0756de4caee310a.setContent(html_bbdf6178d796438bcf8054e133e856a4);
+            
+        
+
+        marker_1451b6de95adc3b4d0a19f8bd9bb6916.bindPopup(popup_34cfdb7bebda8ec7e0756de4caee310a)
+        ;
+
+        
+    
+    
+            marker_1451b6de95adc3b4d0a19f8bd9bb6916.bindTooltip(
+                `<div>
+                     Saudi Arabia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1cf8e517dba88e1eb250606d68f5c32 = L.marker(
+                [23.5983227, 120.83537694479215],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_206fd144cd8dbcf890b66ddf2684eb02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_829a706a68673a5ad9fcdfd08f670dfe = $(`<div id="html_829a706a68673a5ad9fcdfd08f670dfe" style="width: 100.0%; height: 100.0%;"><strong>Taiwan</strong><br>GDP per Capita: 1.39729<br>Healthy Life Expectancy: 0.79565</div>`)[0];
+                popup_206fd144cd8dbcf890b66ddf2684eb02.setContent(html_829a706a68673a5ad9fcdfd08f670dfe);
+            
+        
+
+        marker_f1cf8e517dba88e1eb250606d68f5c32.bindPopup(popup_206fd144cd8dbcf890b66ddf2684eb02)
+        ;
+
+        
+    
+    
+            marker_f1cf8e517dba88e1eb250606d68f5c32.bindTooltip(
+                `<div>
+                     Taiwan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a41af42ebe6a2853f0da02e6ef8ecc1 = L.marker(
+                [25.3336984, 51.2295295],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_1d661c05f8e896842940ad3d86741df1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_622962d13305413b2a5677ea40ba4556 = $(`<div id="html_622962d13305413b2a5677ea40ba4556" style="width: 100.0%; height: 100.0%;"><strong>Qatar</strong><br>GDP per Capita: 1.82427<br>Healthy Life Expectancy: 0.71723</div>`)[0];
+                popup_1d661c05f8e896842940ad3d86741df1.setContent(html_622962d13305413b2a5677ea40ba4556);
+            
+        
+
+        marker_2a41af42ebe6a2853f0da02e6ef8ecc1.bindPopup(popup_1d661c05f8e896842940ad3d86741df1)
+        ;
+
+        
+    
+    
+            marker_2a41af42ebe6a2853f0da02e6ef8ecc1.bindTooltip(
+                `<div>
+                     Qatar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46dae8aa45c492f62a0d31ccdcf3360d = L.marker(
+                [28.0000272, 2.9999825],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_42064845594f83376f014bb522d51a42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a98ced44b7eaf1f778c7c9678f67cf1f = $(`<div id="html_a98ced44b7eaf1f778c7c9678f67cf1f" style="width: 100.0%; height: 100.0%;"><strong>Algeria</strong><br>GDP per Capita: 1.05266<br>Healthy Life Expectancy: 0.61804</div>`)[0];
+                popup_42064845594f83376f014bb522d51a42.setContent(html_a98ced44b7eaf1f778c7c9678f67cf1f);
+            
+        
+
+        marker_46dae8aa45c492f62a0d31ccdcf3360d.bindPopup(popup_42064845594f83376f014bb522d51a42)
+        ;
+
+        
+    
+    
+            marker_46dae8aa45c492f62a0d31ccdcf3360d.bindTooltip(
+                `<div>
+                     Algeria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_209e99a44701d90077c09a87c3a6271e = L.marker(
+                [15.5855545, -90.345759],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_192301e4e4e6e6cb99e141eef307ec34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc3df940372a4ef652589e56ae98c2ae = $(`<div id="html_bc3df940372a4ef652589e56ae98c2ae" style="width: 100.0%; height: 100.0%;"><strong>Guatemala</strong><br>GDP per Capita: 0.83454<br>Healthy Life Expectancy: 0.54039</div>`)[0];
+                popup_192301e4e4e6e6cb99e141eef307ec34.setContent(html_bc3df940372a4ef652589e56ae98c2ae);
+            
+        
+
+        marker_209e99a44701d90077c09a87c3a6271e.bindPopup(popup_192301e4e4e6e6cb99e141eef307ec34)
+        ;
+
+        
+    
+    
+            marker_209e99a44701d90077c09a87c3a6271e.bindTooltip(
+                `<div>
+                     Guatemala
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80e44660ff01a8ab2d4d3fef4babd150 = L.marker(
+                [4.1413025, -56.0771187],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_3115f681de8fe216c2a0a8dcc0ae7fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_187a568a675ddf3e3f05c9564a771d01 = $(`<div id="html_187a568a675ddf3e3f05c9564a771d01" style="width: 100.0%; height: 100.0%;"><strong>Suriname</strong><br>GDP per Capita: 1.09686<br>Healthy Life Expectancy: 0.50933</div>`)[0];
+                popup_3115f681de8fe216c2a0a8dcc0ae7fe1.setContent(html_187a568a675ddf3e3f05c9564a771d01);
+            
+        
+
+        marker_80e44660ff01a8ab2d4d3fef4babd150.bindPopup(popup_3115f681de8fe216c2a0a8dcc0ae7fe1)
+        ;
+
+        
+    
+    
+            marker_80e44660ff01a8ab2d4d3fef4babd150.bindTooltip(
+                `<div>
+                     Suriname
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a0b5aec4a16baccf171e4c40ed34d92 = L.marker(
+                [29.3796532, 47.9734174],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_c8acca7bfdc8bfb661415ec8b878663f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6331afd0830f803a97666baadb5c0316 = $(`<div id="html_6331afd0830f803a97666baadb5c0316" style="width: 100.0%; height: 100.0%;"><strong>Kuwait</strong><br>GDP per Capita: 1.61714<br>Healthy Life Expectancy: 0.63569</div>`)[0];
+                popup_c8acca7bfdc8bfb661415ec8b878663f.setContent(html_6331afd0830f803a97666baadb5c0316);
+            
+        
+
+        marker_9a0b5aec4a16baccf171e4c40ed34d92.bindPopup(popup_c8acca7bfdc8bfb661415ec8b878663f)
+        ;
+
+        
+    
+    
+            marker_9a0b5aec4a16baccf171e4c40ed34d92.bindTooltip(
+                `<div>
+                     Kuwait
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b73058e4812d072094ae4e37a0db64ce = L.marker(
+                [10.7466905, -61.0840075],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_4772819dc95d9e3f2081ca34ab3d75ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca09000783547fa875071743ecf1d385 = $(`<div id="html_ca09000783547fa875071743ecf1d385" style="width: 100.0%; height: 100.0%;"><strong>Trinidad and Tobago</strong><br>GDP per Capita: 1.32572<br>Healthy Life Expectancy: 0.52608</div>`)[0];
+                popup_4772819dc95d9e3f2081ca34ab3d75ac.setContent(html_ca09000783547fa875071743ecf1d385);
+            
+        
+
+        marker_b73058e4812d072094ae4e37a0db64ce.bindPopup(popup_4772819dc95d9e3f2081ca34ab3d75ac)
+        ;
+
+        
+    
+    
+            marker_b73058e4812d072094ae4e37a0db64ce.bindTooltip(
+                `<div>
+                     Trinidad and Tobago
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_025088ea4961126e709f64e42a2487db = L.marker(
+                [8.0018709, -66.1109318],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_581680975c96a9ec65a120d5d9174685 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_021029482551c326d117800d06bb969a = $(`<div id="html_021029482551c326d117800d06bb969a" style="width: 100.0%; height: 100.0%;"><strong>Venezuela</strong><br>GDP per Capita: 1.13367<br>Healthy Life Expectancy: 0.61904</div>`)[0];
+                popup_581680975c96a9ec65a120d5d9174685.setContent(html_021029482551c326d117800d06bb969a);
+            
+        
+
+        marker_025088ea4961126e709f64e42a2487db.bindPopup(popup_581680975c96a9ec65a120d5d9174685)
+        ;
+
+        
+    
+    
+            marker_025088ea4961126e709f64e42a2487db.bindTooltip(
+                `<div>
+                     Venezuela
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5039679b424e9ac708de7f82e7e20fd6 = L.marker(
+                [13.8000382, -88.9140683],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_001c2a6415f4cb7d5dd159be3cbf9d78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de54f9e442a03c9eec481ca8e9ce33ea = $(`<div id="html_de54f9e442a03c9eec481ca8e9ce33ea" style="width: 100.0%; height: 100.0%;"><strong>El Salvador</strong><br>GDP per Capita: 0.8737<br>Healthy Life Expectancy: 0.596</div>`)[0];
+                popup_001c2a6415f4cb7d5dd159be3cbf9d78.setContent(html_de54f9e442a03c9eec481ca8e9ce33ea);
+            
+        
+
+        marker_5039679b424e9ac708de7f82e7e20fd6.bindPopup(popup_001c2a6415f4cb7d5dd159be3cbf9d78)
+        ;
+
+        
+    
+    
+            marker_5039679b424e9ac708de7f82e7e20fd6.bindTooltip(
+                `<div>
+                     El Salvador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5e20c4f198f1bac05e7badfeecd5abb = L.marker(
+                [4.5693754, 102.2656823],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_bd294b7a991d154210dc2e38a5ed0d5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_568b427f94c785308699c0c18eff3832 = $(`<div id="html_568b427f94c785308699c0c18eff3832" style="width: 100.0%; height: 100.0%;"><strong>Malaysia</strong><br>GDP per Capita: 1.25142<br>Healthy Life Expectancy: 0.62366</div>`)[0];
+                popup_bd294b7a991d154210dc2e38a5ed0d5a.setContent(html_568b427f94c785308699c0c18eff3832);
+            
+        
+
+        marker_f5e20c4f198f1bac05e7badfeecd5abb.bindPopup(popup_bd294b7a991d154210dc2e38a5ed0d5a)
+        ;
+
+        
+    
+    
+            marker_f5e20c4f198f1bac05e7badfeecd5abb.bindTooltip(
+                `<div>
+                     Malaysia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c594b12ac57e4736d910b4e280ae7d72 = L.marker(
+                [12.6090157, -85.2936911],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_eaa724ecf04474cb8e31d358507a0a7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d87695478b798cbe21f0898e0b3803b2 = $(`<div id="html_d87695478b798cbe21f0898e0b3803b2" style="width: 100.0%; height: 100.0%;"><strong>Nicaragua</strong><br>GDP per Capita: 0.69384<br>Healthy Life Expectancy: 0.65213</div>`)[0];
+                popup_eaa724ecf04474cb8e31d358507a0a7b.setContent(html_d87695478b798cbe21f0898e0b3803b2);
+            
+        
+
+        marker_c594b12ac57e4736d910b4e280ae7d72.bindPopup(popup_eaa724ecf04474cb8e31d358507a0a7b)
+        ;
+
+        
+    
+    
+            marker_c594b12ac57e4736d910b4e280ae7d72.bindTooltip(
+                `<div>
+                     Nicaragua
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_044dfe6a78560062b96f50514d8f5cd7 = L.marker(
+                [41.32373, 63.9528098],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_9449b4d30b634a2c219c41d9b13a23c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84dd5f4bfc5f0ada4c33d47273574a07 = $(`<div id="html_84dd5f4bfc5f0ada4c33d47273574a07" style="width: 100.0%; height: 100.0%;"><strong>Uzbekistan</strong><br>GDP per Capita: 0.73591<br>Healthy Life Expectancy: 0.50163</div>`)[0];
+                popup_9449b4d30b634a2c219c41d9b13a23c3.setContent(html_84dd5f4bfc5f0ada4c33d47273574a07);
+            
+        
+
+        marker_044dfe6a78560062b96f50514d8f5cd7.bindPopup(popup_9449b4d30b634a2c219c41d9b13a23c3)
+        ;
+
+        
+    
+    
+            marker_044dfe6a78560062b96f50514d8f5cd7.bindTooltip(
+                `<div>
+                     Uzbekistan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b9d749dd722ac73a60a442b68327452 = L.marker(
+                [42.6384261, 12.674297],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_f0e7f02f408f74ba51dd2cbe22b91fca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1f87d9a1a95804512ea09190f4bdbc7 = $(`<div id="html_b1f87d9a1a95804512ea09190f4bdbc7" style="width: 100.0%; height: 100.0%;"><strong>Italy</strong><br>GDP per Capita: 1.35495<br>Healthy Life Expectancy: 0.85102</div>`)[0];
+                popup_f0e7f02f408f74ba51dd2cbe22b91fca.setContent(html_b1f87d9a1a95804512ea09190f4bdbc7);
+            
+        
+
+        marker_9b9d749dd722ac73a60a442b68327452.bindPopup(popup_f0e7f02f408f74ba51dd2cbe22b91fca)
+        ;
+
+        
+    
+    
+            marker_9b9d749dd722ac73a60a442b68327452.bindTooltip(
+                `<div>
+                     Italy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9727b55f24b45c02a19ff630f2641216 = L.marker(
+                [-1.3397668, -79.3666965],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_77fe9f72196f582a7af3f4f6856db435 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fa2fd10f251931980e535ff8bba09e1 = $(`<div id="html_8fa2fd10f251931980e535ff8bba09e1" style="width: 100.0%; height: 100.0%;"><strong>Ecuador</strong><br>GDP per Capita: 0.97306<br>Healthy Life Expectancy: 0.68613</div>`)[0];
+                popup_77fe9f72196f582a7af3f4f6856db435.setContent(html_8fa2fd10f251931980e535ff8bba09e1);
+            
+        
+
+        marker_9727b55f24b45c02a19ff630f2641216.bindPopup(popup_77fe9f72196f582a7af3f4f6856db435)
+        ;
+
+        
+    
+    
+            marker_9727b55f24b45c02a19ff630f2641216.bindTooltip(
+                `<div>
+                     Ecuador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a47eaed065834dcd033d22d773f63878 = L.marker(
+                [17.1204943, -88.6859028],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_69f18a3f13523bd414a389980ccbfdf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af48c6753df039b0f204efbcb9bf2d78 = $(`<div id="html_af48c6753df039b0f204efbcb9bf2d78" style="width: 100.0%; height: 100.0%;"><strong>Belize</strong><br>GDP per Capita: 0.87616<br>Healthy Life Expectancy: 0.45569</div>`)[0];
+                popup_69f18a3f13523bd414a389980ccbfdf9.setContent(html_af48c6753df039b0f204efbcb9bf2d78);
+            
+        
+
+        marker_a47eaed065834dcd033d22d773f63878.bindPopup(popup_69f18a3f13523bd414a389980ccbfdf9)
+        ;
+
+        
+    
+    
+            marker_a47eaed065834dcd033d22d773f63878.bindTooltip(
+                `<div>
+                     Belize
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c3d65a2a4145ab8989606c5b9bfb774 = L.marker(
+                [36.5748441, 139.2394179],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_071453fc98781cd0a5f89c20bb818690 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_521ef1a4338ac0213d46fde8febbf494 = $(`<div id="html_521ef1a4338ac0213d46fde8febbf494" style="width: 100.0%; height: 100.0%;"><strong>Japan</strong><br>GDP per Capita: 1.38007<br>Healthy Life Expectancy: 0.91491</div>`)[0];
+                popup_071453fc98781cd0a5f89c20bb818690.setContent(html_521ef1a4338ac0213d46fde8febbf494);
+            
+        
+
+        marker_9c3d65a2a4145ab8989606c5b9bfb774.bindPopup(popup_071453fc98781cd0a5f89c20bb818690)
+        ;
+
+        
+    
+    
+            marker_9c3d65a2a4145ab8989606c5b9bfb774.bindTooltip(
+                `<div>
+                     Japan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b00bed2d50c176de7c6645cfdc87617 = L.marker(
+                [48.1012954, 66.7780818],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_d29c734bbb0d55685d3f0b479e8ccc28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95cc5d5ec8830e6cf57b72166af35ca8 = $(`<div id="html_95cc5d5ec8830e6cf57b72166af35ca8" style="width: 100.0%; height: 100.0%;"><strong>Kazakhstan</strong><br>GDP per Capita: 1.22943<br>Healthy Life Expectancy: 0.57386</div>`)[0];
+                popup_d29c734bbb0d55685d3f0b479e8ccc28.setContent(html_95cc5d5ec8830e6cf57b72166af35ca8);
+            
+        
+
+        marker_5b00bed2d50c176de7c6645cfdc87617.bindPopup(popup_d29c734bbb0d55685d3f0b479e8ccc28)
+        ;
+
+        
+    
+    
+            marker_5b00bed2d50c176de7c6645cfdc87617.bindTooltip(
+                `<div>
+                     Kazakhstan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44d859958073cf3522ec9f1196ff6f97 = L.marker(
+                [47.2879608, 28.5670941],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_410c408c7f2ef87cf9f1e08fec06c57a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1ce46d2b0e0d5068c2ae4b73a5a1b13 = $(`<div id="html_c1ce46d2b0e0d5068c2ae4b73a5a1b13" style="width: 100.0%; height: 100.0%;"><strong>Moldova</strong><br>GDP per Capita: 0.69177<br>Healthy Life Expectancy: 0.52309</div>`)[0];
+                popup_410c408c7f2ef87cf9f1e08fec06c57a.setContent(html_c1ce46d2b0e0d5068c2ae4b73a5a1b13);
+            
+        
+
+        marker_44d859958073cf3522ec9f1196ff6f97.bindPopup(popup_410c408c7f2ef87cf9f1e08fec06c57a)
+        ;
+
+        
+    
+    
+            marker_44d859958073cf3522ec9f1196ff6f97.bindTooltip(
+                `<div>
+                     Moldova
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e73a55c9a6503d7d5760247e542b3f5 = L.marker(
+                [64.6863136, 97.7453061],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_772cc41c8d13c3e0f08396769f4e926e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5a8923713491dbbbbde1f3d0bb37178 = $(`<div id="html_a5a8923713491dbbbbde1f3d0bb37178" style="width: 100.0%; height: 100.0%;"><strong>Russia</strong><br>GDP per Capita: 1.23228<br>Healthy Life Expectancy: 0.58991</div>`)[0];
+                popup_772cc41c8d13c3e0f08396769f4e926e.setContent(html_a5a8923713491dbbbbde1f3d0bb37178);
+            
+        
+
+        marker_8e73a55c9a6503d7d5760247e542b3f5.bindPopup(popup_772cc41c8d13c3e0f08396769f4e926e)
+        ;
+
+        
+    
+    
+            marker_8e73a55c9a6503d7d5760247e542b3f5.bindTooltip(
+                `<div>
+                     Russia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0f2ce0c78d2a442a24ea34ba4969104 = L.marker(
+                [52.215933, 19.134422],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_9a01db806076fb8dc62d6450f2732ab3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89f191ead3faa4d5d53164a88c1faf56 = $(`<div id="html_89f191ead3faa4d5d53164a88c1faf56" style="width: 100.0%; height: 100.0%;"><strong>Poland</strong><br>GDP per Capita: 1.24585<br>Healthy Life Expectancy: 0.69058</div>`)[0];
+                popup_9a01db806076fb8dc62d6450f2732ab3.setContent(html_89f191ead3faa4d5d53164a88c1faf56);
+            
+        
+
+        marker_b0f2ce0c78d2a442a24ea34ba4969104.bindPopup(popup_9a01db806076fb8dc62d6450f2732ab3)
+        ;
+
+        
+    
+    
+            marker_b0f2ce0c78d2a442a24ea34ba4969104.bindTooltip(
+                `<div>
+                     Poland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59759c19ec9d47a4fbca2a50da0fb05f = L.marker(
+                [36.638392, 127.6961188],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_46f9cab6a32368701969e666ed2d6c6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b10559bc2288738792b838353c88306 = $(`<div id="html_2b10559bc2288738792b838353c88306" style="width: 100.0%; height: 100.0%;"><strong>South Korea</strong><br>GDP per Capita: 1.35948<br>Healthy Life Expectancy: 0.88645</div>`)[0];
+                popup_46f9cab6a32368701969e666ed2d6c6b.setContent(html_2b10559bc2288738792b838353c88306);
+            
+        
+
+        marker_59759c19ec9d47a4fbca2a50da0fb05f.bindPopup(popup_46f9cab6a32368701969e666ed2d6c6b)
+        ;
+
+        
+    
+    
+            marker_59759c19ec9d47a4fbca2a50da0fb05f.bindTooltip(
+                `<div>
+                     South Korea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f616872a20d40bd17616e9a5524ce17 = L.marker(
+                [55.3500003, 23.7499997],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0544f7b4cb51bc7faf1bb7b6c885ae68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7ae89c7e28737d863ad4ddc6d2f7552 = $(`<div id="html_d7ae89c7e28737d863ad4ddc6d2f7552" style="width: 100.0%; height: 100.0%;"><strong>Lithuania</strong><br>GDP per Capita: 1.2692<br>Healthy Life Expectancy: 0.64674</div>`)[0];
+                popup_0544f7b4cb51bc7faf1bb7b6c885ae68.setContent(html_d7ae89c7e28737d863ad4ddc6d2f7552);
+            
+        
+
+        marker_6f616872a20d40bd17616e9a5524ce17.bindPopup(popup_0544f7b4cb51bc7faf1bb7b6c885ae68)
+        ;
+
+        
+    
+    
+            marker_6f616872a20d40bd17616e9a5524ce17.bindTooltip(
+                `<div>
+                     Lithuania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5939dfae0873ade2d4c1da8f1007be3 = L.marker(
+                [53.4250605, 27.6971358],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_8ee26129d52295c0236d76e86eb1ac6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8d16343351afdda7981aed59e3403e1 = $(`<div id="html_e8d16343351afdda7981aed59e3403e1" style="width: 100.0%; height: 100.0%;"><strong>Belarus</strong><br>GDP per Capita: 1.13062<br>Healthy Life Expectancy: 0.63104</div>`)[0];
+                popup_8ee26129d52295c0236d76e86eb1ac6f.setContent(html_e8d16343351afdda7981aed59e3403e1);
+            
+        
+
+        marker_c5939dfae0873ade2d4c1da8f1007be3.bindPopup(popup_8ee26129d52295c0236d76e86eb1ac6f)
+        ;
+
+        
+    
+    
+            marker_c5939dfae0873ade2d4c1da8f1007be3.bindTooltip(
+                `<div>
+                     Belarus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ce1742622f950acfe92c4323434df9b = L.marker(
+                [35.2245313, 33.6252379],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_fb3190d5b5dfc8db92fbb97117af9e47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28c33ee24ea11a95f7f75276e713dc6b = $(`<div id="html_28c33ee24ea11a95f7f75276e713dc6b" style="width: 100.0%; height: 100.0%;"><strong>North Cyprus</strong><br>GDP per Capita: 1.31141<br>Healthy Life Expectancy: 0.84142</div>`)[0];
+                popup_fb3190d5b5dfc8db92fbb97117af9e47.setContent(html_28c33ee24ea11a95f7f75276e713dc6b);
+            
+        
+
+        marker_2ce1742622f950acfe92c4323434df9b.bindPopup(popup_fb3190d5b5dfc8db92fbb97117af9e47)
+        ;
+
+        
+    
+    
+            marker_2ce1742622f950acfe92c4323434df9b.bindTooltip(
+                `<div>
+                     North Cyprus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac6576979bfb71ea7c6ec685249f6adb = L.marker(
+                [46.1199444, 14.8153333],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_9cac4a43cc13f78ee40d3eca8f67c397 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41cc54edaf1ece5d4eb576a055d05714 = $(`<div id="html_41cc54edaf1ece5d4eb576a055d05714" style="width: 100.0%; height: 100.0%;"><strong>Slovenia</strong><br>GDP per Capita: 1.29947<br>Healthy Life Expectancy: 0.79151</div>`)[0];
+                popup_9cac4a43cc13f78ee40d3eca8f67c397.setContent(html_41cc54edaf1ece5d4eb576a055d05714);
+            
+        
+
+        marker_ac6576979bfb71ea7c6ec685249f6adb.bindPopup(popup_9cac4a43cc13f78ee40d3eca8f67c397)
+        ;
+
+        
+    
+    
+            marker_ac6576979bfb71ea7c6ec685249f6adb.bindTooltip(
+                `<div>
+                     Slovenia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_911d88f5e064dfc10d0cf5b8782f1ae7 = L.marker(
+                [39.3763807, 59.3924609],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_e6ab5b3b86c0b222532cbefe13d3f166 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7404dac194b711100808d20afb8a80e2 = $(`<div id="html_7404dac194b711100808d20afb8a80e2" style="width: 100.0%; height: 100.0%;"><strong>Turkmenistan</strong><br>GDP per Capita: 1.08017<br>Healthy Life Expectancy: 0.44006</div>`)[0];
+                popup_e6ab5b3b86c0b222532cbefe13d3f166.setContent(html_7404dac194b711100808d20afb8a80e2);
+            
+        
+
+        marker_911d88f5e064dfc10d0cf5b8782f1ae7.bindPopup(popup_e6ab5b3b86c0b222532cbefe13d3f166)
+        ;
+
+        
+    
+    
+            marker_911d88f5e064dfc10d0cf5b8782f1ae7.bindTooltip(
+                `<div>
+                     Turkmenistan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eff360b7c1fe417f46726fdf9ec3c149 = L.marker(
+                [-20.2759451, 57.5703566],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_61f7509270729902b507d2a86fb4fa1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_974070e7e8c74da56d330662c0837b68 = $(`<div id="html_974070e7e8c74da56d330662c0837b68" style="width: 100.0%; height: 100.0%;"><strong>Mauritius</strong><br>GDP per Capita: 1.14372<br>Healthy Life Expectancy: 0.66189</div>`)[0];
+                popup_61f7509270729902b507d2a86fb4fa1e.setContent(html_974070e7e8c74da56d330662c0837b68);
+            
+        
+
+        marker_eff360b7c1fe417f46726fdf9ec3c149.bindPopup(popup_61f7509270729902b507d2a86fb4fa1e)
+        ;
+
+        
+    
+    
+            marker_eff360b7c1fe417f46726fdf9ec3c149.bindTooltip(
+                `<div>
+                     Mauritius
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61e51fa48b35aad73387d7cdd3a3a01e = L.marker(
+                [26.8234472, 18.1236723],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_7052a35312d770eea88c29c956fe2ac7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abd86e3b9b743e5c8796e46bc9e34235 = $(`<div id="html_abd86e3b9b743e5c8796e46bc9e34235" style="width: 100.0%; height: 100.0%;"><strong>Libya</strong><br>GDP per Capita: 1.06688<br>Healthy Life Expectancy: 0.52304</div>`)[0];
+                popup_7052a35312d770eea88c29c956fe2ac7.setContent(html_abd86e3b9b743e5c8796e46bc9e34235);
+            
+        
+
+        marker_61e51fa48b35aad73387d7cdd3a3a01e.bindPopup(popup_7052a35312d770eea88c29c956fe2ac7)
+        ;
+
+        
+    
+    
+            marker_61e51fa48b35aad73387d7cdd3a3a01e.bindTooltip(
+                `<div>
+                     Libya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b01b264be8b9019379b03732d2eb14e = L.marker(
+                [56.8406494, 24.7537645],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_108ba80bf46239965512bc53165fef1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe94db0c64008c92fa5f972e96b35289 = $(`<div id="html_fe94db0c64008c92fa5f972e96b35289" style="width: 100.0%; height: 100.0%;"><strong>Latvia</strong><br>GDP per Capita: 1.21788<br>Healthy Life Expectancy: 0.63952</div>`)[0];
+                popup_108ba80bf46239965512bc53165fef1b.setContent(html_fe94db0c64008c92fa5f972e96b35289);
+            
+        
+
+        marker_8b01b264be8b9019379b03732d2eb14e.bindPopup(popup_108ba80bf46239965512bc53165fef1b)
+        ;
+
+        
+    
+    
+            marker_8b01b264be8b9019379b03732d2eb14e.bindTooltip(
+                `<div>
+                     Latvia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e2b0c32e875b4f662e622eda203a920 = L.marker(
+                [45.9852129, 24.6859225],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_9cfe77911f993570fe25f1aeaa131567 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d05261d9f62bc250c05920052ce68f76 = $(`<div id="html_d05261d9f62bc250c05920052ce68f76" style="width: 100.0%; height: 100.0%;"><strong>Romania</strong><br>GDP per Capita: 1.1697<br>Healthy Life Expectancy: 0.67602</div>`)[0];
+                popup_9cfe77911f993570fe25f1aeaa131567.setContent(html_d05261d9f62bc250c05920052ce68f76);
+            
+        
+
+        marker_3e2b0c32e875b4f662e622eda203a920.bindPopup(popup_9cfe77911f993570fe25f1aeaa131567)
+        ;
+
+        
+    
+    
+            marker_3e2b0c32e875b4f662e622eda203a920.bindTooltip(
+                `<div>
+                     Romania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bade4108b07ca10aee99f19970cc272c = L.marker(
+                [58.7523778, 25.3319078],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_ee5e5bf312158324ca9a5e72c8cfbc24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6bf5c01aae9a70fb2fb7d4c9def8d86 = $(`<div id="html_f6bf5c01aae9a70fb2fb7d4c9def8d86" style="width: 100.0%; height: 100.0%;"><strong>Estonia</strong><br>GDP per Capita: 1.27964<br>Healthy Life Expectancy: 0.68098</div>`)[0];
+                popup_ee5e5bf312158324ca9a5e72c8cfbc24.setContent(html_f6bf5c01aae9a70fb2fb7d4c9def8d86);
+            
+        
+
+        marker_bade4108b07ca10aee99f19970cc272c.bindPopup(popup_ee5e5bf312158324ca9a5e72c8cfbc24)
+        ;
+
+        
+    
+    
+            marker_bade4108b07ca10aee99f19970cc272c.bindTooltip(
+                `<div>
+                     Estonia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67cf87ea4116105aad77d557092f1165 = L.marker(
+                [18.1850507, -77.3947693],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_7830a36d58f73faab4816f89d33e3ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1280806fc9182c07e73ee69c4339eeba = $(`<div id="html_1280806fc9182c07e73ee69c4339eeba" style="width: 100.0%; height: 100.0%;"><strong>Jamaica</strong><br>GDP per Capita: 0.89333<br>Healthy Life Expectancy: 0.59469</div>`)[0];
+                popup_7830a36d58f73faab4816f89d33e3ca1.setContent(html_1280806fc9182c07e73ee69c4339eeba);
+            
+        
+
+        marker_67cf87ea4116105aad77d557092f1165.bindPopup(popup_7830a36d58f73faab4816f89d33e3ca1)
+        ;
+
+        
+    
+    
+            marker_67cf87ea4116105aad77d557092f1165.bindTooltip(
+                `<div>
+                     Jamaica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_833c5c493fb235c503ae5ccbf2eff439 = L.marker(
+                [45.3658443, 15.6575209],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_3f499f3819e459b798dcd915ac8ff31e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34da0437ac1b7f290844fa99ce35055a = $(`<div id="html_34da0437ac1b7f290844fa99ce35055a" style="width: 100.0%; height: 100.0%;"><strong>Croatia</strong><br>GDP per Capita: 1.18649<br>Healthy Life Expectancy: 0.70524</div>`)[0];
+                popup_3f499f3819e459b798dcd915ac8ff31e.setContent(html_34da0437ac1b7f290844fa99ce35055a);
+            
+        
+
+        marker_833c5c493fb235c503ae5ccbf2eff439.bindPopup(popup_3f499f3819e459b798dcd915ac8ff31e)
+        ;
+
+        
+    
+    
+            marker_833c5c493fb235c503ae5ccbf2eff439.bindTooltip(
+                `<div>
+                     Croatia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58108426dd4be2a5f7fb268b1d34ac57 = L.marker(
+                [22.2793278, 114.1628131],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_83c0d7fcc864baeac707ebce6bfe881d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae150b6030c879eba4bfc1b8e1795f6c = $(`<div id="html_ae150b6030c879eba4bfc1b8e1795f6c" style="width: 100.0%; height: 100.0%;"><strong>Hong Kong</strong><br>GDP per Capita: 1.5107<br>Healthy Life Expectancy: 0.95277</div>`)[0];
+                popup_83c0d7fcc864baeac707ebce6bfe881d.setContent(html_ae150b6030c879eba4bfc1b8e1795f6c);
+            
+        
+
+        marker_58108426dd4be2a5f7fb268b1d34ac57.bindPopup(popup_83c0d7fcc864baeac707ebce6bfe881d)
+        ;
+
+        
+    
+    
+            marker_58108426dd4be2a5f7fb268b1d34ac57.bindTooltip(
+                `<div>
+                     Hong Kong
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd25d17601cf23e9ab88853824fb9016 = L.marker(
+                [8.3676771, 49.083416],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_851521c7cf91f7de9e6fa8f6dbeebbfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86879bcab236864feb5de03f61704900 = $(`<div id="html_86879bcab236864feb5de03f61704900" style="width: 100.0%; height: 100.0%;"><strong>Somalia</strong><br>GDP per Capita: 0.0<br>Healthy Life Expectancy: 0.11466</div>`)[0];
+                popup_851521c7cf91f7de9e6fa8f6dbeebbfb.setContent(html_86879bcab236864feb5de03f61704900);
+            
+        
+
+        marker_fd25d17601cf23e9ab88853824fb9016.bindPopup(popup_851521c7cf91f7de9e6fa8f6dbeebbfb)
+        ;
+
+        
+    
+    
+            marker_fd25d17601cf23e9ab88853824fb9016.bindTooltip(
+                `<div>
+                     Somalia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ec011cd95aae548d2ee79085103ce08 = L.marker(
+                [42.5869578, 20.9021231],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_9e11c13e59064795f4fadbed149b843a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a604d3eb47e546929a3ba525b8c3cb3a = $(`<div id="html_a604d3eb47e546929a3ba525b8c3cb3a" style="width: 100.0%; height: 100.0%;"><strong>Kosovo</strong><br>GDP per Capita: 0.90145<br>Healthy Life Expectancy: 0.54</div>`)[0];
+                popup_9e11c13e59064795f4fadbed149b843a.setContent(html_a604d3eb47e546929a3ba525b8c3cb3a);
+            
+        
+
+        marker_3ec011cd95aae548d2ee79085103ce08.bindPopup(popup_9e11c13e59064795f4fadbed149b843a)
+        ;
+
+        
+    
+    
+            marker_3ec011cd95aae548d2ee79085103ce08.bindTooltip(
+                `<div>
+                     Kosovo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be7a90de976e6e32bad3f86deeb59b49 = L.marker(
+                [38.9597594, 34.9249653],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_94c12afeabd704a732b30defbb68262a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00b78b919675b819ae07049c9c6db09b = $(`<div id="html_00b78b919675b819ae07049c9c6db09b" style="width: 100.0%; height: 100.0%;"><strong>Turkey</strong><br>GDP per Capita: 1.16492<br>Healthy Life Expectancy: 0.64718</div>`)[0];
+                popup_94c12afeabd704a732b30defbb68262a.setContent(html_00b78b919675b819ae07049c9c6db09b);
+            
+        
+
+        marker_be7a90de976e6e32bad3f86deeb59b49.bindPopup(popup_94c12afeabd704a732b30defbb68262a)
+        ;
+
+        
+    
+    
+            marker_be7a90de976e6e32bad3f86deeb59b49.bindTooltip(
+                `<div>
+                     Turkey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c31237f7ea6256d023298d9a39dfb027 = L.marker(
+                [-2.4833826, 117.8902853],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_64b82d42b4d10faf3843c29a48d48c0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_421a21e3ad3dc56398e954538c3163e7 = $(`<div id="html_421a21e3ad3dc56398e954538c3163e7" style="width: 100.0%; height: 100.0%;"><strong>Indonesia</strong><br>GDP per Capita: 0.95104<br>Healthy Life Expectancy: 0.49374</div>`)[0];
+                popup_64b82d42b4d10faf3843c29a48d48c0c.setContent(html_421a21e3ad3dc56398e954538c3163e7);
+            
+        
+
+        marker_c31237f7ea6256d023298d9a39dfb027.bindPopup(popup_64b82d42b4d10faf3843c29a48d48c0c)
+        ;
+
+        
+    
+    
+            marker_c31237f7ea6256d023298d9a39dfb027.bindTooltip(
+                `<div>
+                     Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86f956c788b275f11e64093f0048c3cd = L.marker(
+                [10.6611675, 122.5909592],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_1388a17d5006bbfc6f7609acd60866fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_491a9d8b24a8f4ffcd73078f27eea28d = $(`<div id="html_491a9d8b24a8f4ffcd73078f27eea28d" style="width: 100.0%; height: 100.0%;"><strong>Jordan</strong><br>GDP per Capita: 0.99673<br>Healthy Life Expectancy: 0.60712</div>`)[0];
+                popup_1388a17d5006bbfc6f7609acd60866fa.setContent(html_491a9d8b24a8f4ffcd73078f27eea28d);
+            
+        
+
+        marker_86f956c788b275f11e64093f0048c3cd.bindPopup(popup_1388a17d5006bbfc6f7609acd60866fa)
+        ;
+
+        
+    
+    
+            marker_86f956c788b275f11e64093f0048c3cd.bindTooltip(
+                `<div>
+                     Jordan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d7f9b70f2551110030ba48641278550 = L.marker(
+                [40.3936294, 47.7872508],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_a2ab9642f5222c76f32b37c960978893 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2d9b08fe67aac6abe3d2d55cc114b11 = $(`<div id="html_c2d9b08fe67aac6abe3d2d55cc114b11" style="width: 100.0%; height: 100.0%;"><strong>Azerbaijan</strong><br>GDP per Capita: 1.12373<br>Healthy Life Expectancy: 0.54504</div>`)[0];
+                popup_a2ab9642f5222c76f32b37c960978893.setContent(html_c2d9b08fe67aac6abe3d2d55cc114b11);
+            
+        
+
+        marker_9d7f9b70f2551110030ba48641278550.bindPopup(popup_a2ab9642f5222c76f32b37c960978893)
+        ;
+
+        
+    
+    
+            marker_9d7f9b70f2551110030ba48641278550.bindTooltip(
+                `<div>
+                     Azerbaijan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13c439273f5cded765d80f2aa4ccd17f = L.marker(
+                [12.7503486, 122.7312101],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_e102031c289718445b15fd1b9c1d34db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d11a4dd2b9c8e90592e618fe64827000 = $(`<div id="html_d11a4dd2b9c8e90592e618fe64827000" style="width: 100.0%; height: 100.0%;"><strong>Philippines</strong><br>GDP per Capita: 0.81217<br>Healthy Life Expectancy: 0.47036</div>`)[0];
+                popup_e102031c289718445b15fd1b9c1d34db.setContent(html_d11a4dd2b9c8e90592e618fe64827000);
+            
+        
+
+        marker_13c439273f5cded765d80f2aa4ccd17f.bindPopup(popup_e102031c289718445b15fd1b9c1d34db)
+        ;
+
+        
+    
+    
+            marker_13c439273f5cded765d80f2aa4ccd17f.bindTooltip(
+                `<div>
+                     Philippines
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e602f46643b3b49c9296267f7baf275d = L.marker(
+                [35.0000663, 104.999955],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_96f5f226a6c8273e30ecf5ad0302d879 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21b8c70cb729cdb2d8625ad75103ac1d = $(`<div id="html_21b8c70cb729cdb2d8625ad75103ac1d" style="width: 100.0%; height: 100.0%;"><strong>China</strong><br>GDP per Capita: 1.0278<br>Healthy Life Expectancy: 0.73561</div>`)[0];
+                popup_96f5f226a6c8273e30ecf5ad0302d879.setContent(html_21b8c70cb729cdb2d8625ad75103ac1d);
+            
+        
+
+        marker_e602f46643b3b49c9296267f7baf275d.bindPopup(popup_96f5f226a6c8273e30ecf5ad0302d879)
+        ;
+
+        
+    
+    
+            marker_e602f46643b3b49c9296267f7baf275d.bindTooltip(
+                `<div>
+                     China
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_baa71b1c495cb1d09e232cca3c835ea2 = L.marker(
+                [27.549511, 90.5119273],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_d49b2cea39d024c86252c2ab58e40cee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f196dd4ce702e7346c1962c82e1d9ac = $(`<div id="html_9f196dd4ce702e7346c1962c82e1d9ac" style="width: 100.0%; height: 100.0%;"><strong>Bhutan</strong><br>GDP per Capita: 0.8527<br>Healthy Life Expectancy: 0.49759</div>`)[0];
+                popup_d49b2cea39d024c86252c2ab58e40cee.setContent(html_9f196dd4ce702e7346c1962c82e1d9ac);
+            
+        
+
+        marker_baa71b1c495cb1d09e232cca3c835ea2.bindPopup(popup_d49b2cea39d024c86252c2ab58e40cee)
+        ;
+
+        
+    
+    
+            marker_baa71b1c495cb1d09e232cca3c835ea2.bindTooltip(
+                `<div>
+                     Bhutan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f199d6098f10d8feef46c90310eaab80 = L.marker(
+                [41.5089324, 74.724091],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_2808e309d7f99e35e79cacabf76c248f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cdcf87a1f64639d788dd7e1405397bf = $(`<div id="html_2cdcf87a1f64639d788dd7e1405397bf" style="width: 100.0%; height: 100.0%;"><strong>Kyrgyzstan</strong><br>GDP per Capita: 0.56044<br>Healthy Life Expectancy: 0.55449</div>`)[0];
+                popup_2808e309d7f99e35e79cacabf76c248f.setContent(html_2cdcf87a1f64639d788dd7e1405397bf);
+            
+        
+
+        marker_f199d6098f10d8feef46c90310eaab80.bindPopup(popup_2808e309d7f99e35e79cacabf76c248f)
+        ;
+
+        
+    
+    
+            marker_f199d6098f10d8feef46c90310eaab80.bindTooltip(
+                `<div>
+                     Kyrgyzstan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d076f187d94cea8b44e49c695de935b = L.marker(
+                [44.024322850000004, 21.07657433209902],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_3d5f5e08bff5114acd34b3cf845ee0d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da6860f385a3d33800a4f023bbb4db77 = $(`<div id="html_da6860f385a3d33800a4f023bbb4db77" style="width: 100.0%; height: 100.0%;"><strong>Serbia</strong><br>GDP per Capita: 1.03437<br>Healthy Life Expectancy: 0.6458</div>`)[0];
+                popup_3d5f5e08bff5114acd34b3cf845ee0d9.setContent(html_da6860f385a3d33800a4f023bbb4db77);
+            
+        
+
+        marker_6d076f187d94cea8b44e49c695de935b.bindPopup(popup_3d5f5e08bff5114acd34b3cf845ee0d9)
+        ;
+
+        
+    
+    
+            marker_6d076f187d94cea8b44e49c695de935b.bindTooltip(
+                `<div>
+                     Serbia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_685ff4ec8ec5f313539ab6034f88880a = L.marker(
+                [44.3053476, 17.5961467],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_6af33698947d55d8a7d62401ecf08d70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abb49e16f095b76a6ad6573f1afbc483 = $(`<div id="html_abb49e16f095b76a6ad6573f1afbc483" style="width: 100.0%; height: 100.0%;"><strong>Bosnia and Herzegovina</strong><br>GDP per Capita: 0.93383<br>Healthy Life Expectancy: 0.70766</div>`)[0];
+                popup_6af33698947d55d8a7d62401ecf08d70.setContent(html_abb49e16f095b76a6ad6573f1afbc483);
+            
+        
+
+        marker_685ff4ec8ec5f313539ab6034f88880a.bindPopup(popup_6af33698947d55d8a7d62401ecf08d70)
+        ;
+
+        
+    
+    
+            marker_685ff4ec8ec5f313539ab6034f88880a.bindTooltip(
+                `<div>
+                     Bosnia and Herzegovina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_709a817ce751ef87c7b1eb3d7dcec92f = L.marker(
+                [-29.6826112, -51.4687455],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_33e8e2769fde32a9e86797e126e42917 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc83b2254454e11fe81aee3e68db132d = $(`<div id="html_dc83b2254454e11fe81aee3e68db132d" style="width: 100.0%; height: 100.0%;"><strong>Montenegro</strong><br>GDP per Capita: 1.07838<br>Healthy Life Expectancy: 0.63533</div>`)[0];
+                popup_33e8e2769fde32a9e86797e126e42917.setContent(html_dc83b2254454e11fe81aee3e68db132d);
+            
+        
+
+        marker_709a817ce751ef87c7b1eb3d7dcec92f.bindPopup(popup_33e8e2769fde32a9e86797e126e42917)
+        ;
+
+        
+    
+    
+            marker_709a817ce751ef87c7b1eb3d7dcec92f.bindTooltip(
+                `<div>
+                     Montenegro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7cb5081b76d4b77b6eddd4da0ceea32 = L.marker(
+                [19.0974031, -70.3028026],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_6c33dea81cb438aa8293230cd8065857 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edbe06bc75a55c8e00642df3cec7efca = $(`<div id="html_edbe06bc75a55c8e00642df3cec7efca" style="width: 100.0%; height: 100.0%;"><strong>Dominican Republic</strong><br>GDP per Capita: 1.02787<br>Healthy Life Expectancy: 0.57669</div>`)[0];
+                popup_6c33dea81cb438aa8293230cd8065857.setContent(html_edbe06bc75a55c8e00642df3cec7efca);
+            
+        
+
+        marker_e7cb5081b76d4b77b6eddd4da0ceea32.bindPopup(popup_6c33dea81cb438aa8293230cd8065857)
+        ;
+
+        
+    
+    
+            marker_e7cb5081b76d4b77b6eddd4da0ceea32.bindTooltip(
+                `<div>
+                     Dominican Republic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16df76291823322088481a0868705a7c = L.marker(
+                [28.3347722, -10.371337908392647],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_e112b788fe64b6ad97b3105651f05d4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e39c5407a3419fc5f7d7a7587d23f11 = $(`<div id="html_3e39c5407a3419fc5f7d7a7587d23f11" style="width: 100.0%; height: 100.0%;"><strong>Morocco</strong><br>GDP per Capita: 0.84058<br>Healthy Life Expectancy: 0.59471</div>`)[0];
+                popup_e112b788fe64b6ad97b3105651f05d4b.setContent(html_3e39c5407a3419fc5f7d7a7587d23f11);
+            
+        
+
+        marker_16df76291823322088481a0868705a7c.bindPopup(popup_e112b788fe64b6ad97b3105651f05d4b)
+        ;
+
+        
+    
+    
+            marker_16df76291823322088481a0868705a7c.bindTooltip(
+                `<div>
+                     Morocco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a823ee5cba76ebb804d6c81ac8c81ca3 = L.marker(
+                [47.1817585, 19.5060937],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_e289e8138d5a31d4243f74eff51bf30b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9aba2c71306d773286c6c62c7665c07d = $(`<div id="html_9aba2c71306d773286c6c62c7665c07d" style="width: 100.0%; height: 100.0%;"><strong>Hungary</strong><br>GDP per Capita: 1.24142<br>Healthy Life Expectancy: 0.67608</div>`)[0];
+                popup_e289e8138d5a31d4243f74eff51bf30b.setContent(html_9aba2c71306d773286c6c62c7665c07d);
+            
+        
+
+        marker_a823ee5cba76ebb804d6c81ac8c81ca3.bindPopup(popup_e289e8138d5a31d4243f74eff51bf30b)
+        ;
+
+        
+    
+    
+            marker_a823ee5cba76ebb804d6c81ac8c81ca3.bindTooltip(
+                `<div>
+                     Hungary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8fba7de00331e12b3117a1542198c1d9 = L.marker(
+                [30.3308401, 71.247499],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_860256eb8bba71d909f223bc0db01fce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b248a3847735b28c5f93ca7c950cc461 = $(`<div id="html_b248a3847735b28c5f93ca7c950cc461" style="width: 100.0%; height: 100.0%;"><strong>Pakistan</strong><br>GDP per Capita: 0.68816<br>Healthy Life Expectancy: 0.40306</div>`)[0];
+                popup_860256eb8bba71d909f223bc0db01fce.setContent(html_b248a3847735b28c5f93ca7c950cc461);
+            
+        
+
+        marker_8fba7de00331e12b3117a1542198c1d9.bindPopup(popup_860256eb8bba71d909f223bc0db01fce)
+        ;
+
+        
+    
+    
+            marker_8fba7de00331e12b3117a1542198c1d9.bindTooltip(
+                `<div>
+                     Pakistan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_286cd21e7caa9b056396f8bf48333ab1 = L.marker(
+                [40.375713, -76.4626118],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_93d4bbe78fbf2dec0497ce0ff7c55880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c788d1f41d0e5e846941065c23f45a2 = $(`<div id="html_3c788d1f41d0e5e846941065c23f45a2" style="width: 100.0%; height: 100.0%;"><strong>Lebanon</strong><br>GDP per Capita: 1.12268<br>Healthy Life Expectancy: 0.76171</div>`)[0];
+                popup_93d4bbe78fbf2dec0497ce0ff7c55880.setContent(html_3c788d1f41d0e5e846941065c23f45a2);
+            
+        
+
+        marker_286cd21e7caa9b056396f8bf48333ab1.bindPopup(popup_93d4bbe78fbf2dec0497ce0ff7c55880)
+        ;
+
+        
+    
+    
+            marker_286cd21e7caa9b056396f8bf48333ab1.bindTooltip(
+                `<div>
+                     Lebanon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbc59497e90e21b8a96aedbde6cab134 = L.marker(
+                [39.6621648, -8.1353519],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_05b1df8ac743abf2c046efe7b8f5805b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f00772833aeb24d366724ecafc9ba1bd = $(`<div id="html_f00772833aeb24d366724ecafc9ba1bd" style="width: 100.0%; height: 100.0%;"><strong>Portugal</strong><br>GDP per Capita: 1.27607<br>Healthy Life Expectancy: 0.79363</div>`)[0];
+                popup_05b1df8ac743abf2c046efe7b8f5805b.setContent(html_f00772833aeb24d366724ecafc9ba1bd);
+            
+        
+
+        marker_dbc59497e90e21b8a96aedbde6cab134.bindPopup(popup_05b1df8ac743abf2c046efe7b8f5805b)
+        ;
+
+        
+    
+    
+            marker_dbc59497e90e21b8a96aedbde6cab134.bindTooltip(
+                `<div>
+                     Portugal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca5cf8af7b255f02c36cb090ce2d3c8f = L.marker(
+                [41.1927739, -95.4256198],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_5e09c20cdbe696cc84f050fed88968fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dbd4eb243482be3c6785723e3ad2d49 = $(`<div id="html_7dbd4eb243482be3c6785723e3ad2d49" style="width: 100.0%; height: 100.0%;"><strong>Macedonia</strong><br>GDP per Capita: 1.0193<br>Healthy Life Expectancy: 0.64738</div>`)[0];
+                popup_5e09c20cdbe696cc84f050fed88968fa.setContent(html_7dbd4eb243482be3c6785723e3ad2d49);
+            
+        
+
+        marker_ca5cf8af7b255f02c36cb090ce2d3c8f.bindPopup(popup_5e09c20cdbe696cc84f050fed88968fa)
+        ;
+
+        
+    
+    
+            marker_ca5cf8af7b255f02c36cb090ce2d3c8f.bindTooltip(
+                `<div>
+                     Macedonia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fafefc3f4a23af1f553b74a0abba9e4 = L.marker(
+                [15.9266657, 107.9650855],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_5d2350110b5b6a7de49baf6276e8d6f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12dedd119d3b35a1d3f3993ee2552c60 = $(`<div id="html_12dedd119d3b35a1d3f3993ee2552c60" style="width: 100.0%; height: 100.0%;"><strong>Vietnam</strong><br>GDP per Capita: 0.74037<br>Healthy Life Expectancy: 0.66157</div>`)[0];
+                popup_5d2350110b5b6a7de49baf6276e8d6f6.setContent(html_12dedd119d3b35a1d3f3993ee2552c60);
+            
+        
+
+        marker_9fafefc3f4a23af1f553b74a0abba9e4.bindPopup(popup_5d2350110b5b6a7de49baf6276e8d6f6)
+        ;
+
+        
+    
+    
+            marker_9fafefc3f4a23af1f553b74a0abba9e4.bindTooltip(
+                `<div>
+                     Vietnam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebf19b65cbce89e4df91b508b71fa879 = L.marker(
+                [10.3743673, 45.1098578],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_05e1847af5f90205e72999966d095f48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7553190cbd182c3fd9040b5dde04937 = $(`<div id="html_f7553190cbd182c3fd9040b5dde04937" style="width: 100.0%; height: 100.0%;"><strong>Somaliland Region</strong><br>GDP per Capita: 0.25558<br>Healthy Life Expectancy: 0.33108</div>`)[0];
+                popup_05e1847af5f90205e72999966d095f48.setContent(html_f7553190cbd182c3fd9040b5dde04937);
+            
+        
+
+        marker_ebf19b65cbce89e4df91b508b71fa879.bindPopup(popup_05e1847af5f90205e72999966d095f48)
+        ;
+
+        
+    
+    
+            marker_ebf19b65cbce89e4df91b508b71fa879.bindTooltip(
+                `<div>
+                     Somaliland Region
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc1eb67e6e143c245f961cbae59c1122 = L.marker(
+                [36.8002068, 10.1857757],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_533aaa0d65e1614df20c3292531a3494 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d47428e5ff49834afd8a11f75ede6e9 = $(`<div id="html_0d47428e5ff49834afd8a11f75ede6e9" style="width: 100.0%; height: 100.0%;"><strong>Tunisia</strong><br>GDP per Capita: 0.97724<br>Healthy Life Expectancy: 0.59577</div>`)[0];
+                popup_533aaa0d65e1614df20c3292531a3494.setContent(html_0d47428e5ff49834afd8a11f75ede6e9);
+            
+        
+
+        marker_dc1eb67e6e143c245f961cbae59c1122.bindPopup(popup_533aaa0d65e1614df20c3292531a3494)
+        ;
+
+        
+    
+    
+            marker_dc1eb67e6e143c245f961cbae59c1122.bindTooltip(
+                `<div>
+                     Tunisia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c94d290424919a81b445c9fdc383b5a = L.marker(
+                [38.9953683, 21.9877132],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_dd09ff84ff528bf77a2c2fc944a5d825 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_febfa02b0ab63c4880574bcb72858caa = $(`<div id="html_febfa02b0ab63c4880574bcb72858caa" style="width: 100.0%; height: 100.0%;"><strong>Greece</strong><br>GDP per Capita: 1.24886<br>Healthy Life Expectancy: 0.80029</div>`)[0];
+                popup_dd09ff84ff528bf77a2c2fc944a5d825.setContent(html_febfa02b0ab63c4880574bcb72858caa);
+            
+        
+
+        marker_5c94d290424919a81b445c9fdc383b5a.bindPopup(popup_dd09ff84ff528bf77a2c2fc944a5d825)
+        ;
+
+        
+    
+    
+            marker_5c94d290424919a81b445c9fdc383b5a.bindTooltip(
+                `<div>
+                     Greece
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be2e34dc679c26e8368f9ab76d408979 = L.marker(
+                [38.6281733, 70.8156541],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_be2e3ecd3806a2e527b6dac912fee296 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5021bb1e98e1e0f2fa403e12d48e76ea = $(`<div id="html_5021bb1e98e1e0f2fa403e12d48e76ea" style="width: 100.0%; height: 100.0%;"><strong>Tajikistan</strong><br>GDP per Capita: 0.48835<br>Healthy Life Expectancy: 0.53119</div>`)[0];
+                popup_be2e3ecd3806a2e527b6dac912fee296.setContent(html_5021bb1e98e1e0f2fa403e12d48e76ea);
+            
+        
+
+        marker_be2e34dc679c26e8368f9ab76d408979.bindPopup(popup_be2e3ecd3806a2e527b6dac912fee296)
+        ;
+
+        
+    
+    
+            marker_be2e34dc679c26e8368f9ab76d408979.bindTooltip(
+                `<div>
+                     Tajikistan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6980c097c2ee722e1eb2eca8c3a9582 = L.marker(
+                [43.9382593, -79.2235563],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_914de9f47645677d881ac9dc6543255b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46fd72dbb340b3dfada4b7fab521b901 = $(`<div id="html_46fd72dbb340b3dfada4b7fab521b901" style="width: 100.0%; height: 100.0%;"><strong>Mongolia</strong><br>GDP per Capita: 0.98853<br>Healthy Life Expectancy: 0.55469</div>`)[0];
+                popup_914de9f47645677d881ac9dc6543255b.setContent(html_46fd72dbb340b3dfada4b7fab521b901);
+            
+        
+
+        marker_e6980c097c2ee722e1eb2eca8c3a9582.bindPopup(popup_914de9f47645677d881ac9dc6543255b)
+        ;
+
+        
+    
+    
+            marker_e6980c097c2ee722e1eb2eca8c3a9582.bindTooltip(
+                `<div>
+                     Mongolia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61cce3ccf6fa62dce4360045f7c7299f = L.marker(
+                [20.0171109, 103.378253],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_b13476bffebc838a065d93ab3b9f0678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_882a84db244fb12de3bf45361da7aa35 = $(`<div id="html_882a84db244fb12de3bf45361da7aa35" style="width: 100.0%; height: 100.0%;"><strong>Laos</strong><br>GDP per Capita: 0.68042<br>Healthy Life Expectancy: 0.38291</div>`)[0];
+                popup_b13476bffebc838a065d93ab3b9f0678.setContent(html_882a84db244fb12de3bf45361da7aa35);
+            
+        
+
+        marker_61cce3ccf6fa62dce4360045f7c7299f.bindPopup(popup_b13476bffebc838a065d93ab3b9f0678)
+        ;
+
+        
+    
+    
+            marker_61cce3ccf6fa62dce4360045f7c7299f.bindTooltip(
+                `<div>
+                     Laos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92b30a94ea54c893fb5e547c3a932f0b = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_23ff9860f3afd45cbfb2e71320e551a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83bfef382660e027425b25d484238c8f = $(`<div id="html_83bfef382660e027425b25d484238c8f" style="width: 100.0%; height: 100.0%;"><strong>Nigeria</strong><br>GDP per Capita: 0.75216<br>Healthy Life Expectancy: 0.05108</div>`)[0];
+                popup_23ff9860f3afd45cbfb2e71320e551a3.setContent(html_83bfef382660e027425b25d484238c8f);
+            
+        
+
+        marker_92b30a94ea54c893fb5e547c3a932f0b.bindPopup(popup_23ff9860f3afd45cbfb2e71320e551a3)
+        ;
+
+        
+    
+    
+            marker_92b30a94ea54c893fb5e547c3a932f0b.bindTooltip(
+                `<div>
+                     Nigeria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c940ff50b2a02483315ce1bbb64cd12f = L.marker(
+                [15.2572432, -86.0755145],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_1b1ba691e2274d141ed795edca056c8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b815de423d884367f542e99481cdf8a1 = $(`<div id="html_b815de423d884367f542e99481cdf8a1" style="width: 100.0%; height: 100.0%;"><strong>Honduras</strong><br>GDP per Capita: 0.69429<br>Healthy Life Expectancy: 0.58383</div>`)[0];
+                popup_1b1ba691e2274d141ed795edca056c8b.setContent(html_b815de423d884367f542e99481cdf8a1);
+            
+        
+
+        marker_c940ff50b2a02483315ce1bbb64cd12f.bindPopup(popup_1b1ba691e2274d141ed795edca056c8b)
+        ;
+
+        
+    
+    
+            marker_c940ff50b2a02483315ce1bbb64cd12f.bindTooltip(
+                `<div>
+                     Honduras
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f5a152b74692e684caa09c6a7b46ca3 = L.marker(
+                [32.6475314, 54.5643516],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_166b3e555d27eb2caaef043e917cd44e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c06c38e018fb4e095bda095e9701137 = $(`<div id="html_4c06c38e018fb4e095bda095e9701137" style="width: 100.0%; height: 100.0%;"><strong>Iran</strong><br>GDP per Capita: 1.11758<br>Healthy Life Expectancy: 0.64232</div>`)[0];
+                popup_166b3e555d27eb2caaef043e917cd44e.setContent(html_4c06c38e018fb4e095bda095e9701137);
+            
+        
+
+        marker_2f5a152b74692e684caa09c6a7b46ca3.bindPopup(popup_166b3e555d27eb2caaef043e917cd44e)
+        ;
+
+        
+    
+    
+            marker_2f5a152b74692e684caa09c6a7b46ca3.bindTooltip(
+                `<div>
+                     Iran
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d626642e697b86ef13e1146f4390ca64 = L.marker(
+                [-14.5189121, 27.5589884],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_f5d0b61a14951f16c5d9d7bcea867835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fa7d1ecb2dc9a9d17d9033ce74fe8bf = $(`<div id="html_0fa7d1ecb2dc9a9d17d9033ce74fe8bf" style="width: 100.0%; height: 100.0%;"><strong>Zambia</strong><br>GDP per Capita: 0.61202<br>Healthy Life Expectancy: 0.23573</div>`)[0];
+                popup_f5d0b61a14951f16c5d9d7bcea867835.setContent(html_0fa7d1ecb2dc9a9d17d9033ce74fe8bf);
+            
+        
+
+        marker_d626642e697b86ef13e1146f4390ca64.bindPopup(popup_f5d0b61a14951f16c5d9d7bcea867835)
+        ;
+
+        
+    
+    
+            marker_d626642e697b86ef13e1146f4390ca64.bindTooltip(
+                `<div>
+                     Zambia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba88da5579599467713cf64212a4719f = L.marker(
+                [31.762963620549996, 34.9384953773143],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_f24d83e3d934b4f7490168a359c8f913 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2fae04edc7c537a9470e48b1334289f = $(`<div id="html_d2fae04edc7c537a9470e48b1334289f" style="width: 100.0%; height: 100.0%;"><strong>Palestinian Territories</strong><br>GDP per Capita: 0.67024<br>Healthy Life Expectancy: 0.56844</div>`)[0];
+                popup_f24d83e3d934b4f7490168a359c8f913.setContent(html_d2fae04edc7c537a9470e48b1334289f);
+            
+        
+
+        marker_ba88da5579599467713cf64212a4719f.bindPopup(popup_f24d83e3d934b4f7490168a359c8f913)
+        ;
+
+        
+    
+    
+            marker_ba88da5579599467713cf64212a4719f.bindTooltip(
+                `<div>
+                     Palestinian Territories
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c5e2a67ce86834d1e5dcef5e132a2a0 = L.marker(
+                [5.7587654, -73.9151617],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_c1f981c7bb701c6fbaf74ec1c46619c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fed82e7040d7898980cf45f69f2288f = $(`<div id="html_4fed82e7040d7898980cf45f69f2288f" style="width: 100.0%; height: 100.0%;"><strong>Albania</strong><br>GDP per Capita: 0.9553<br>Healthy Life Expectancy: 0.73007</div>`)[0];
+                popup_c1f981c7bb701c6fbaf74ec1c46619c5.setContent(html_4fed82e7040d7898980cf45f69f2288f);
+            
+        
+
+        marker_1c5e2a67ce86834d1e5dcef5e132a2a0.bindPopup(popup_c1f981c7bb701c6fbaf74ec1c46619c5)
+        ;
+
+        
+    
+    
+            marker_1c5e2a67ce86834d1e5dcef5e132a2a0.bindTooltip(
+                `<div>
+                     Albania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad036bb00518e3b76e2752e3bd439958 = L.marker(
+                [-0.2864982, 36.0514231],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_cb114e13e4f77aabadc0607256dd40f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7dd45776245eff41212636f779581f9 = $(`<div id="html_a7dd45776245eff41212636f779581f9" style="width: 100.0%; height: 100.0%;"><strong>Bangladesh</strong><br>GDP per Capita: 0.54177<br>Healthy Life Expectancy: 0.52989</div>`)[0];
+                popup_cb114e13e4f77aabadc0607256dd40f3.setContent(html_a7dd45776245eff41212636f779581f9);
+            
+        
+
+        marker_ad036bb00518e3b76e2752e3bd439958.bindPopup(popup_cb114e13e4f77aabadc0607256dd40f3)
+        ;
+
+        
+    
+    
+            marker_ad036bb00518e3b76e2752e3bd439958.bindTooltip(
+                `<div>
+                     Bangladesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_686142997f9837ea3ac9a1c2115b0dbd = L.marker(
+                [33.0955793, 44.1749775],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0c0ea9bd863c701d771aec85635e9799 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28fff860147b6cef6f20ce4845fa30ae = $(`<div id="html_28fff860147b6cef6f20ce4845fa30ae" style="width: 100.0%; height: 100.0%;"><strong>Iraq</strong><br>GDP per Capita: 1.07474<br>Healthy Life Expectancy: 0.51076</div>`)[0];
+                popup_0c0ea9bd863c701d771aec85635e9799.setContent(html_28fff860147b6cef6f20ce4845fa30ae);
+            
+        
+
+        marker_686142997f9837ea3ac9a1c2115b0dbd.bindPopup(popup_0c0ea9bd863c701d771aec85635e9799)
+        ;
+
+        
+    
+    
+            marker_686142997f9837ea3ac9a1c2115b0dbd.bindTooltip(
+                `<div>
+                     Iraq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9cde60a693f1a63f0a6f483da2d276a = L.marker(
+                [-23.2335499, 17.3231107],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_a1482b1b46f923d2600273eb042e9067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_785c3cd3354adca227597677e6af7b72 = $(`<div id="html_785c3cd3354adca227597677e6af7b72" style="width: 100.0%; height: 100.0%;"><strong>Namibia</strong><br>GDP per Capita: 0.93287<br>Healthy Life Expectancy: 0.34745</div>`)[0];
+                popup_a1482b1b46f923d2600273eb042e9067.setContent(html_785c3cd3354adca227597677e6af7b72);
+            
+        
+
+        marker_a9cde60a693f1a63f0a6f483da2d276a.bindPopup(popup_a1482b1b46f923d2600273eb042e9067)
+        ;
+
+        
+    
+    
+            marker_a9cde60a693f1a63f0a6f483da2d276a.bindTooltip(
+                `<div>
+                     Namibia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7d7d75faf2332b3d5eb6ed23cb73787 = L.marker(
+                [4.6125522, 13.1535811],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0968760dcef98f7f64bf50646330134d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_643c54361234451ca1cd4dc4fedca9c4 = $(`<div id="html_643c54361234451ca1cd4dc4fedca9c4" style="width: 100.0%; height: 100.0%;"><strong>Cameroon</strong><br>GDP per Capita: 0.52497<br>Healthy Life Expectancy: 0.12698</div>`)[0];
+                popup_0968760dcef98f7f64bf50646330134d.setContent(html_643c54361234451ca1cd4dc4fedca9c4);
+            
+        
+
+        marker_f7d7d75faf2332b3d5eb6ed23cb73787.bindPopup(popup_0968760dcef98f7f64bf50646330134d)
+        ;
+
+        
+    
+    
+            marker_f7d7d75faf2332b3d5eb6ed23cb73787.bindTooltip(
+                `<div>
+                     Cameroon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36afff458719c7c49a13022bda9d3822 = L.marker(
+                [10.2116702, 38.6521203],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_5487ce6fb2b64808dfb75d72a2744d4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30d134eec8cf8e8b332779ddb545f2c0 = $(`<div id="html_30d134eec8cf8e8b332779ddb545f2c0" style="width: 100.0%; height: 100.0%;"><strong>Ethiopia</strong><br>GDP per Capita: 0.29283<br>Healthy Life Expectancy: 0.34578</div>`)[0];
+                popup_5487ce6fb2b64808dfb75d72a2744d4c.setContent(html_30d134eec8cf8e8b332779ddb545f2c0);
+            
+        
+
+        marker_36afff458719c7c49a13022bda9d3822.bindPopup(popup_5487ce6fb2b64808dfb75d72a2744d4c)
+        ;
+
+        
+    
+    
+            marker_36afff458719c7c49a13022bda9d3822.bindTooltip(
+                `<div>
+                     Ethiopia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee0d2e6fee103839582472af6b0a5cd5 = L.marker(
+                [-28.8166236, 24.991639],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_fc3878c6ae73df777efede7dfb5ecbc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0cd860eb097f5fb9b27e5fed6f6511c = $(`<div id="html_c0cd860eb097f5fb9b27e5fed6f6511c" style="width: 100.0%; height: 100.0%;"><strong>South Africa</strong><br>GDP per Capita: 1.02416<br>Healthy Life Expectancy: 0.18611</div>`)[0];
+                popup_fc3878c6ae73df777efede7dfb5ecbc7.setContent(html_c0cd860eb097f5fb9b27e5fed6f6511c);
+            
+        
+
+        marker_ee0d2e6fee103839582472af6b0a5cd5.bindPopup(popup_fc3878c6ae73df777efede7dfb5ecbc7)
+        ;
+
+        
+    
+    
+            marker_ee0d2e6fee103839582472af6b0a5cd5.bindTooltip(
+                `<div>
+                     South Africa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6aab16c832509f2b99771caabf79164 = L.marker(
+                [7.5554942, 80.7137847],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_7ec80616a35abdcaa2e8cb9302ffb1b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e469d4f4105869f104d7888f65b4ad6 = $(`<div id="html_5e469d4f4105869f104d7888f65b4ad6" style="width: 100.0%; height: 100.0%;"><strong>Sri Lanka</strong><br>GDP per Capita: 0.97318<br>Healthy Life Expectancy: 0.62007</div>`)[0];
+                popup_7ec80616a35abdcaa2e8cb9302ffb1b9.setContent(html_5e469d4f4105869f104d7888f65b4ad6);
+            
+        
+
+        marker_d6aab16c832509f2b99771caabf79164.bindPopup(popup_7ec80616a35abdcaa2e8cb9302ffb1b9)
+        ;
+
+        
+    
+    
+            marker_d6aab16c832509f2b99771caabf79164.bindTooltip(
+                `<div>
+                     Sri Lanka
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef81594e60e6b8842015736d2c2511a3 = L.marker(
+                [22.3511148, 78.6677428],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0abcfca2cef06af5930f68d23985b0c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eae8fd6161e838278f58a81649f50c92 = $(`<div id="html_eae8fd6161e838278f58a81649f50c92" style="width: 100.0%; height: 100.0%;"><strong>India</strong><br>GDP per Capita: 0.74036<br>Healthy Life Expectancy: 0.45091</div>`)[0];
+                popup_0abcfca2cef06af5930f68d23985b0c8.setContent(html_eae8fd6161e838278f58a81649f50c92);
+            
+        
+
+        marker_ef81594e60e6b8842015736d2c2511a3.bindPopup(popup_0abcfca2cef06af5930f68d23985b0c8)
+        ;
+
+        
+    
+    
+            marker_ef81594e60e6b8842015736d2c2511a3.bindTooltip(
+                `<div>
+                     India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f65a6a791fc9d559d43c7adf99a96ee4 = L.marker(
+                [17.1750495, 95.9999652],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_1dcf3d824d003cd36762e193dace2d2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7add2f09b86bbdf79ce0b472cd76d2e9 = $(`<div id="html_7add2f09b86bbdf79ce0b472cd76d2e9" style="width: 100.0%; height: 100.0%;"><strong>Myanmar</strong><br>GDP per Capita: 0.34112<br>Healthy Life Expectancy: 0.3988</div>`)[0];
+                popup_1dcf3d824d003cd36762e193dace2d2b.setContent(html_7add2f09b86bbdf79ce0b472cd76d2e9);
+            
+        
+
+        marker_f65a6a791fc9d559d43c7adf99a96ee4.bindPopup(popup_1dcf3d824d003cd36762e193dace2d2b)
+        ;
+
+        
+    
+    
+            marker_f65a6a791fc9d559d43c7adf99a96ee4.bindTooltip(
+                `<div>
+                     Myanmar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4576447bc5eb8f30fb50040efcae63b = L.marker(
+                [26.2540493, 29.2675469],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_88d57837b17ec177ba127464c9086f10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_556b2ecdfed409c67b4f33f7c0e9a981 = $(`<div id="html_556b2ecdfed409c67b4f33f7c0e9a981" style="width: 100.0%; height: 100.0%;"><strong>Egypt</strong><br>GDP per Capita: 0.95395<br>Healthy Life Expectancy: 0.52116</div>`)[0];
+                popup_88d57837b17ec177ba127464c9086f10.setContent(html_556b2ecdfed409c67b4f33f7c0e9a981);
+            
+        
+
+        marker_a4576447bc5eb8f30fb50040efcae63b.bindPopup(popup_88d57837b17ec177ba127464c9086f10)
+        ;
+
+        
+    
+    
+            marker_a4576447bc5eb8f30fb50040efcae63b.bindTooltip(
+                `<div>
+                     Egypt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10629e33f97fab9bbc874ef135f3a23c = L.marker(
+                [4.491976149999999, -75.74135085294314],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_013f21db74a000d27210a338d254b902 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3560c0469b754c647c287951a140a1c2 = $(`<div id="html_3560c0469b754c647c287951a140a1c2" style="width: 100.0%; height: 100.0%;"><strong>Armenia</strong><br>GDP per Capita: 0.86086<br>Healthy Life Expectancy: 0.64083</div>`)[0];
+                popup_013f21db74a000d27210a338d254b902.setContent(html_3560c0469b754c647c287951a140a1c2);
+            
+        
+
+        marker_10629e33f97fab9bbc874ef135f3a23c.bindPopup(popup_013f21db74a000d27210a338d254b902)
+        ;
+
+        
+    
+    
+            marker_10629e33f97fab9bbc874ef135f3a23c.bindTooltip(
+                `<div>
+                     Armenia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe407cd979d8d9842c9805df56ba41a4 = L.marker(
+                [1.4419683, 38.4313975],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_2d76199b5e4b80306d2a9e38ab2cdc68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf5c1e737bd546c3714242e2025fa7f9 = $(`<div id="html_cf5c1e737bd546c3714242e2025fa7f9" style="width: 100.0%; height: 100.0%;"><strong>Kenya</strong><br>GDP per Capita: 0.52267<br>Healthy Life Expectancy: 0.30147</div>`)[0];
+                popup_2d76199b5e4b80306d2a9e38ab2cdc68.setContent(html_cf5c1e737bd546c3714242e2025fa7f9);
+            
+        
+
+        marker_fe407cd979d8d9842c9805df56ba41a4.bindPopup(popup_2d76199b5e4b80306d2a9e38ab2cdc68)
+        ;
+
+        
+    
+    
+            marker_fe407cd979d8d9842c9805df56ba41a4.bindTooltip(
+                `<div>
+                     Kenya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_457bbb30cf6e24ae41b3f19c48140d2b = L.marker(
+                [49.4871968, 31.2718321],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_48d23c53b15430821c16dd26dcd1d95e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12b14992cf76c068dcd8a0fa30dd37b2 = $(`<div id="html_12b14992cf76c068dcd8a0fa30dd37b2" style="width: 100.0%; height: 100.0%;"><strong>Ukraine</strong><br>GDP per Capita: 0.87287<br>Healthy Life Expectancy: 0.58628</div>`)[0];
+                popup_48d23c53b15430821c16dd26dcd1d95e.setContent(html_12b14992cf76c068dcd8a0fa30dd37b2);
+            
+        
+
+        marker_457bbb30cf6e24ae41b3f19c48140d2b.bindPopup(popup_48d23c53b15430821c16dd26dcd1d95e)
+        ;
+
+        
+    
+    
+            marker_457bbb30cf6e24ae41b3f19c48140d2b.bindTooltip(
+                `<div>
+                     Ukraine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eccc0d83e3c0c28a1bdbc2499010b477 = L.marker(
+                [8.0300284, -1.0800271],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_dfe4cbc11f1bb7485b990dbf9dcbf145 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0efe08b7a6e64c5cf0f56d5db0949caf = $(`<div id="html_0efe08b7a6e64c5cf0f56d5db0949caf" style="width: 100.0%; height: 100.0%;"><strong>Ghana</strong><br>GDP per Capita: 0.63107<br>Healthy Life Expectancy: 0.29681</div>`)[0];
+                popup_dfe4cbc11f1bb7485b990dbf9dcbf145.setContent(html_0efe08b7a6e64c5cf0f56d5db0949caf);
+            
+        
+
+        marker_eccc0d83e3c0c28a1bdbc2499010b477.bindPopup(popup_dfe4cbc11f1bb7485b990dbf9dcbf145)
+        ;
+
+        
+    
+    
+            marker_eccc0d83e3c0c28a1bdbc2499010b477.bindTooltip(
+                `<div>
+                     Ghana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57334edf404cb4b90016fc94ca6eca60 = L.marker(
+                [-2.9814344, 23.8222636],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_a8017508d8827a1f4aa0d4024c7ec1d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1230e4f9080e4d1687b74a2c710c089c = $(`<div id="html_1230e4f9080e4d1687b74a2c710c089c" style="width: 100.0%; height: 100.0%;"><strong>Congo (Kinshasa)</strong><br>GDP per Capita: 0.05661<br>Healthy Life Expectancy: 0.188</div>`)[0];
+                popup_a8017508d8827a1f4aa0d4024c7ec1d1.setContent(html_1230e4f9080e4d1687b74a2c710c089c);
+            
+        
+
+        marker_57334edf404cb4b90016fc94ca6eca60.bindPopup(popup_a8017508d8827a1f4aa0d4024c7ec1d1)
+        ;
+
+        
+    
+    
+            marker_57334edf404cb4b90016fc94ca6eca60.bindTooltip(
+                `<div>
+                     Congo (Kinshasa)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88f366c284bf0e1dd962daa2d33c437a = L.marker(
+                [32.3293809, -83.1137366],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_4c212f66ec25182d54cbc7b70932d271 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccabad2a462427e8a7072ec482f73d78 = $(`<div id="html_ccabad2a462427e8a7072ec482f73d78" style="width: 100.0%; height: 100.0%;"><strong>Georgia</strong><br>GDP per Capita: 0.83792<br>Healthy Life Expectancy: 0.64035</div>`)[0];
+                popup_4c212f66ec25182d54cbc7b70932d271.setContent(html_ccabad2a462427e8a7072ec482f73d78);
+            
+        
+
+        marker_88f366c284bf0e1dd962daa2d33c437a.bindPopup(popup_4c212f66ec25182d54cbc7b70932d271)
+        ;
+
+        
+    
+    
+            marker_88f366c284bf0e1dd962daa2d33c437a.bindTooltip(
+                `<div>
+                     Georgia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b98945c1405c5dee3fada2db054f2fd8 = L.marker(
+                [-0.7264327, 15.6419155],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0044324ed93783e467286935cfb15e35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3add4253811828e543d03b0a94ef65f6 = $(`<div id="html_3add4253811828e543d03b0a94ef65f6" style="width: 100.0%; height: 100.0%;"><strong>Congo (Brazzaville)</strong><br>GDP per Capita: 0.77109<br>Healthy Life Expectancy: 0.28212</div>`)[0];
+                popup_0044324ed93783e467286935cfb15e35.setContent(html_3add4253811828e543d03b0a94ef65f6);
+            
+        
+
+        marker_b98945c1405c5dee3fada2db054f2fd8.bindPopup(popup_0044324ed93783e467286935cfb15e35)
+        ;
+
+        
+    
+    
+            marker_b98945c1405c5dee3fada2db054f2fd8.bindTooltip(
+                `<div>
+                     Congo (Brazzaville)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e14872f0d8f5ecb3757face8a847735 = L.marker(
+                [14.4750607, -14.4529612],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0d9588bff54716feae2388643533c409 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6198895a425e160612a2e01c1d26542 = $(`<div id="html_e6198895a425e160612a2e01c1d26542" style="width: 100.0%; height: 100.0%;"><strong>Senegal</strong><br>GDP per Capita: 0.44314<br>Healthy Life Expectancy: 0.40457</div>`)[0];
+                popup_0d9588bff54716feae2388643533c409.setContent(html_e6198895a425e160612a2e01c1d26542);
+            
+        
+
+        marker_8e14872f0d8f5ecb3757face8a847735.bindPopup(popup_0d9588bff54716feae2388643533c409)
+        ;
+
+        
+    
+    
+            marker_8e14872f0d8f5ecb3757face8a847735.bindTooltip(
+                `<div>
+                     Senegal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_299c141d354bee1b576500592df67648 = L.marker(
+                [42.6073975, 25.4856617],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_722d1bb4240cffbb6e1fd716c6f1df1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f1048f58209c4bfce5daeafaff1073a = $(`<div id="html_7f1048f58209c4bfce5daeafaff1073a" style="width: 100.0%; height: 100.0%;"><strong>Bulgaria</strong><br>GDP per Capita: 1.11306<br>Healthy Life Expectancy: 0.67806</div>`)[0];
+                popup_722d1bb4240cffbb6e1fd716c6f1df1b.setContent(html_7f1048f58209c4bfce5daeafaff1073a);
+            
+        
+
+        marker_299c141d354bee1b576500592df67648.bindPopup(popup_722d1bb4240cffbb6e1fd716c6f1df1b)
+        ;
+
+        
+    
+    
+            marker_299c141d354bee1b576500592df67648.bindTooltip(
+                `<div>
+                     Bulgaria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d5b73d2111e3233c00117955e56138b = L.marker(
+                [20.2540382, -9.2399263],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_08f16dc5e53450abce653cc558c9b9a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_658d536fb02b25861096353b4e6bb8a4 = $(`<div id="html_658d536fb02b25861096353b4e6bb8a4" style="width: 100.0%; height: 100.0%;"><strong>Mauritania</strong><br>GDP per Capita: 0.61391<br>Healthy Life Expectancy: 0.28639</div>`)[0];
+                popup_08f16dc5e53450abce653cc558c9b9a4.setContent(html_658d536fb02b25861096353b4e6bb8a4);
+            
+        
+
+        marker_0d5b73d2111e3233c00117955e56138b.bindPopup(popup_08f16dc5e53450abce653cc558c9b9a4)
+        ;
+
+        
+    
+    
+            marker_0d5b73d2111e3233c00117955e56138b.bindTooltip(
+                `<div>
+                     Mauritania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5809bc4c5f0999c09b0c90c8b72d4cf0 = L.marker(
+                [-18.4554963, 29.7468414],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_eebc11cf1a28e3fb143abb7bad014dcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2086be4f041c9c9de841770d20aeae24 = $(`<div id="html_2086be4f041c9c9de841770d20aeae24" style="width: 100.0%; height: 100.0%;"><strong>Zimbabwe</strong><br>GDP per Capita: 0.35041<br>Healthy Life Expectancy: 0.1595</div>`)[0];
+                popup_eebc11cf1a28e3fb143abb7bad014dcf.setContent(html_2086be4f041c9c9de841770d20aeae24);
+            
+        
+
+        marker_5809bc4c5f0999c09b0c90c8b72d4cf0.bindPopup(popup_eebc11cf1a28e3fb143abb7bad014dcf)
+        ;
+
+        
+    
+    
+            marker_5809bc4c5f0999c09b0c90c8b72d4cf0.bindTooltip(
+                `<div>
+                     Zimbabwe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4afd62cdc86f44198e2dc7d073a0de8 = L.marker(
+                [-13.2687204, 33.9301963],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_4b8e577bf59d7d81ad4c8e11e1ba092e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f226356df54947c757efcec466917e0d = $(`<div id="html_f226356df54947c757efcec466917e0d" style="width: 100.0%; height: 100.0%;"><strong>Malawi</strong><br>GDP per Capita: 0.08709<br>Healthy Life Expectancy: 0.29364</div>`)[0];
+                popup_4b8e577bf59d7d81ad4c8e11e1ba092e.setContent(html_f226356df54947c757efcec466917e0d);
+            
+        
+
+        marker_f4afd62cdc86f44198e2dc7d073a0de8.bindPopup(popup_4b8e577bf59d7d81ad4c8e11e1ba092e)
+        ;
+
+        
+    
+    
+            marker_f4afd62cdc86f44198e2dc7d073a0de8.bindTooltip(
+                `<div>
+                     Malawi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c006c7b6156738152af1da5964512a54 = L.marker(
+                [10.9, 6.5],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_256649074212ff8c1128c0175bf8b709 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ea8c8ee256be484cd6edc400b88629a = $(`<div id="html_3ea8c8ee256be484cd6edc400b88629a" style="width: 100.0%; height: 100.0%;"><strong>Sudan</strong><br>GDP per Capita: 0.63069<br>Healthy Life Expectancy: 0.29759</div>`)[0];
+                popup_256649074212ff8c1128c0175bf8b709.setContent(html_3ea8c8ee256be484cd6edc400b88629a);
+            
+        
+
+        marker_c006c7b6156738152af1da5964512a54.bindPopup(popup_256649074212ff8c1128c0175bf8b709)
+        ;
+
+        
+    
+    
+            marker_c006c7b6156738152af1da5964512a54.bindTooltip(
+                `<div>
+                     Sudan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c64b71e99abe2cdec46717f2d67b57be = L.marker(
+                [-0.8999695, 11.6899699],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_ef915d55c6c31a4fb331de5419bce943 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5056e69cfa82e542b810142067fc679 = $(`<div id="html_d5056e69cfa82e542b810142067fc679" style="width: 100.0%; height: 100.0%;"><strong>Gabon</strong><br>GDP per Capita: 1.15851<br>Healthy Life Expectancy: 0.3494</div>`)[0];
+                popup_ef915d55c6c31a4fb331de5419bce943.setContent(html_d5056e69cfa82e542b810142067fc679);
+            
+        
+
+        marker_c64b71e99abe2cdec46717f2d67b57be.bindPopup(popup_ef915d55c6c31a4fb331de5419bce943)
+        ;
+
+        
+    
+    
+            marker_c64b71e99abe2cdec46717f2d67b57be.bindTooltip(
+                `<div>
+                     Gabon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_070f64352c628d4b276649201e173486 = L.marker(
+                [16.3700359, -2.2900239],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_bf37d6e25206a14079c9bf6b8b98ee69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_707218e7dfdf04db96787901a69049f4 = $(`<div id="html_707218e7dfdf04db96787901a69049f4" style="width: 100.0%; height: 100.0%;"><strong>Mali</strong><br>GDP per Capita: 0.31292<br>Healthy Life Expectancy: 0.16347</div>`)[0];
+                popup_bf37d6e25206a14079c9bf6b8b98ee69.setContent(html_707218e7dfdf04db96787901a69049f4);
+            
+        
+
+        marker_070f64352c628d4b276649201e173486.bindPopup(popup_bf37d6e25206a14079c9bf6b8b98ee69)
+        ;
+
+        
+    
+    
+            marker_070f64352c628d4b276649201e173486.bindTooltip(
+                `<div>
+                     Mali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04e70e6bab448ff450de8c0218e54f6d = L.marker(
+                [19.1399952, -72.3570972],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_8f7823b7a5339d21679b5c96cb1babae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_117ffe5394529590e2d206a307588de6 = $(`<div id="html_117ffe5394529590e2d206a307588de6" style="width: 100.0%; height: 100.0%;"><strong>Haiti</strong><br>GDP per Capita: 0.34097<br>Healthy Life Expectancy: 0.27494</div>`)[0];
+                popup_8f7823b7a5339d21679b5c96cb1babae.setContent(html_117ffe5394529590e2d206a307588de6);
+            
+        
+
+        marker_04e70e6bab448ff450de8c0218e54f6d.bindPopup(popup_8f7823b7a5339d21679b5c96cb1babae)
+        ;
+
+        
+    
+    
+            marker_04e70e6bab448ff450de8c0218e54f6d.bindTooltip(
+                `<div>
+                     Haiti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7118c36629d205bfde65224315ac5be6 = L.marker(
+                [-23.1681782, 24.5928742],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_a6c68377bfa7330b30c8a16a13c43340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_027544da00e3b4a30b232f96467f8670 = $(`<div id="html_027544da00e3b4a30b232f96467f8670" style="width: 100.0%; height: 100.0%;"><strong>Botswana</strong><br>GDP per Capita: 1.09426<br>Healthy Life Expectancy: 0.34752</div>`)[0];
+                popup_a6c68377bfa7330b30c8a16a13c43340.setContent(html_027544da00e3b4a30b232f96467f8670);
+            
+        
+
+        marker_7118c36629d205bfde65224315ac5be6.bindPopup(popup_a6c68377bfa7330b30c8a16a13c43340)
+        ;
+
+        
+    
+    
+            marker_7118c36629d205bfde65224315ac5be6.bindTooltip(
+                `<div>
+                     Botswana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c08585f947d771bdee226e5b20c9e184 = L.marker(
+                [-12.2045176, 44.2832964],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_bc8860593684c5af5dfea79930dcee44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21fd76673c06e30b2c75f3924c1db38c = $(`<div id="html_21fd76673c06e30b2c75f3924c1db38c" style="width: 100.0%; height: 100.0%;"><strong>Comoros</strong><br>GDP per Capita: 0.27509<br>Healthy Life Expectancy: 0.29981</div>`)[0];
+                popup_bc8860593684c5af5dfea79930dcee44.setContent(html_21fd76673c06e30b2c75f3924c1db38c);
+            
+        
+
+        marker_c08585f947d771bdee226e5b20c9e184.bindPopup(popup_bc8860593684c5af5dfea79930dcee44)
+        ;
+
+        
+    
+    
+            marker_c08585f947d771bdee226e5b20c9e184.bindTooltip(
+                `<div>
+                     Comoros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72fbff25ec721160603b8dcad19e4fd2 = L.marker(
+                [7.9897371, -5.5679458],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_52abc264026be480628fcfc41e8cbf49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c78456f14dbdc40b5dedc2e2081fbc2e = $(`<div id="html_c78456f14dbdc40b5dedc2e2081fbc2e" style="width: 100.0%; height: 100.0%;"><strong>Ivory Coast</strong><br>GDP per Capita: 0.55507<br>Healthy Life Expectancy: 0.04476</div>`)[0];
+                popup_52abc264026be480628fcfc41e8cbf49.setContent(html_c78456f14dbdc40b5dedc2e2081fbc2e);
+            
+        
+
+        marker_72fbff25ec721160603b8dcad19e4fd2.bindPopup(popup_52abc264026be480628fcfc41e8cbf49)
+        ;
+
+        
+    
+    
+            marker_72fbff25ec721160603b8dcad19e4fd2.bindTooltip(
+                `<div>
+                     Ivory Coast
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92b7aa7d3b68ab8c35a45c9214dc852f = L.marker(
+                [12.5433216, 104.8144914],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_e89bf4bcdc55c1c0034fb8f753804cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b9382491ee5c43667dbeb4e4f978500 = $(`<div id="html_9b9382491ee5c43667dbeb4e4f978500" style="width: 100.0%; height: 100.0%;"><strong>Cambodia</strong><br>GDP per Capita: 0.55604<br>Healthy Life Expectancy: 0.42494</div>`)[0];
+                popup_e89bf4bcdc55c1c0034fb8f753804cd9.setContent(html_9b9382491ee5c43667dbeb4e4f978500);
+            
+        
+
+        marker_92b7aa7d3b68ab8c35a45c9214dc852f.bindPopup(popup_e89bf4bcdc55c1c0034fb8f753804cd9)
+        ;
+
+        
+    
+    
+            marker_92b7aa7d3b68ab8c35a45c9214dc852f.bindTooltip(
+                `<div>
+                     Cambodia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac40a20ee809dd890c5190ff812ef5af = L.marker(
+                [-11.8775768, 17.5691241],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_614247e80ec4aa1e355a175d0e6a6962 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e152f7869f5c020922d25e40b5028992 = $(`<div id="html_e152f7869f5c020922d25e40b5028992" style="width: 100.0%; height: 100.0%;"><strong>Angola</strong><br>GDP per Capita: 0.84731<br>Healthy Life Expectancy: 0.04991</div>`)[0];
+                popup_614247e80ec4aa1e355a175d0e6a6962.setContent(html_e152f7869f5c020922d25e40b5028992);
+            
+        
+
+        marker_ac40a20ee809dd890c5190ff812ef5af.bindPopup(popup_614247e80ec4aa1e355a175d0e6a6962)
+        ;
+
+        
+    
+    
+            marker_ac40a20ee809dd890c5190ff812ef5af.bindTooltip(
+                `<div>
+                     Angola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3242e691439fdc4392a1f508586e034 = L.marker(
+                [17.7356214, 9.3238432],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_feef9cd2521b350e855c7a69eceebd7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4547c3f0cfbf58098617e67ebfdcba81 = $(`<div id="html_4547c3f0cfbf58098617e67ebfdcba81" style="width: 100.0%; height: 100.0%;"><strong>Niger</strong><br>GDP per Capita: 0.1327<br>Healthy Life Expectancy: 0.26162</div>`)[0];
+                popup_feef9cd2521b350e855c7a69eceebd7c.setContent(html_4547c3f0cfbf58098617e67ebfdcba81);
+            
+        
+
+        marker_b3242e691439fdc4392a1f508586e034.bindPopup(popup_feef9cd2521b350e855c7a69eceebd7c)
+        ;
+
+        
+    
+    
+            marker_b3242e691439fdc4392a1f508586e034.bindTooltip(
+                `<div>
+                     Niger
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9be654559418e8678070f3f5dfb73e45 = L.marker(
+                [7.8699431, 29.6667897],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_99c39a30400533161ac4e754b6b712bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81b4fddd871d76ddcb49f17c5c005871 = $(`<div id="html_81b4fddd871d76ddcb49f17c5c005871" style="width: 100.0%; height: 100.0%;"><strong>South Sudan</strong><br>GDP per Capita: 0.39394<br>Healthy Life Expectancy: 0.15781</div>`)[0];
+                popup_99c39a30400533161ac4e754b6b712bc.setContent(html_81b4fddd871d76ddcb49f17c5c005871);
+            
+        
+
+        marker_9be654559418e8678070f3f5dfb73e45.bindPopup(popup_99c39a30400533161ac4e754b6b712bc)
+        ;
+
+        
+    
+    
+            marker_9be654559418e8678070f3f5dfb73e45.bindTooltip(
+                `<div>
+                     South Sudan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8993e4e2b0f18cd1fe572af1dc5ae58 = L.marker(
+                [15.6134137, 19.0156172],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_f640fbde64a4b9c905158fd175bcedf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f4bc80eab1fa5287273c0b868ec5334 = $(`<div id="html_4f4bc80eab1fa5287273c0b868ec5334" style="width: 100.0%; height: 100.0%;"><strong>Chad</strong><br>GDP per Capita: 0.42214<br>Healthy Life Expectancy: 0.03824</div>`)[0];
+                popup_f640fbde64a4b9c905158fd175bcedf0.setContent(html_4f4bc80eab1fa5287273c0b868ec5334);
+            
+        
+
+        marker_a8993e4e2b0f18cd1fe572af1dc5ae58.bindPopup(popup_f640fbde64a4b9c905158fd175bcedf0)
+        ;
+
+        
+    
+    
+            marker_a8993e4e2b0f18cd1fe572af1dc5ae58.bindTooltip(
+                `<div>
+                     Chad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b675cb062e28c4ea39e5e99bebc4f976 = L.marker(
+                [12.0753083, -1.6880314],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_f68c97a0d5803f49c06124ae0f0facb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8293ce557f78eb5e6b457ed12271ab9 = $(`<div id="html_e8293ce557f78eb5e6b457ed12271ab9" style="width: 100.0%; height: 100.0%;"><strong>Burkina Faso</strong><br>GDP per Capita: 0.31995<br>Healthy Life Expectancy: 0.21297</div>`)[0];
+                popup_f68c97a0d5803f49c06124ae0f0facb6.setContent(html_e8293ce557f78eb5e6b457ed12271ab9);
+            
+        
+
+        marker_b675cb062e28c4ea39e5e99bebc4f976.bindPopup(popup_f68c97a0d5803f49c06124ae0f0facb6)
+        ;
+
+        
+    
+    
+            marker_b675cb062e28c4ea39e5e99bebc4f976.bindTooltip(
+                `<div>
+                     Burkina Faso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27adb6ce456f5d06d7d8d1d353c67e80 = L.marker(
+                [1.5333554, 32.2166578],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_6da6d069f5940be754c5d9fbdf709021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f51dc4ba4abd3abcd583f5fd14180b80 = $(`<div id="html_f51dc4ba4abd3abcd583f5fd14180b80" style="width: 100.0%; height: 100.0%;"><strong>Uganda</strong><br>GDP per Capita: 0.34719<br>Healthy Life Expectancy: 0.19625</div>`)[0];
+                popup_6da6d069f5940be754c5d9fbdf709021.setContent(html_f51dc4ba4abd3abcd583f5fd14180b80);
+            
+        
+
+        marker_27adb6ce456f5d06d7d8d1d353c67e80.bindPopup(popup_6da6d069f5940be754c5d9fbdf709021)
+        ;
+
+        
+    
+    
+            marker_27adb6ce456f5d06d7d8d1d353c67e80.bindTooltip(
+                `<div>
+                     Uganda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58f9d678a450212021cb00b5a623aab9 = L.marker(
+                [16.3471243, 47.8915271],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_7028ba35571e9f82281b11e3c726b386 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4b3b15f2e8741b3724e50a19724123d = $(`<div id="html_b4b3b15f2e8741b3724e50a19724123d" style="width: 100.0%; height: 100.0%;"><strong>Yemen</strong><br>GDP per Capita: 0.57939<br>Healthy Life Expectancy: 0.31048</div>`)[0];
+                popup_7028ba35571e9f82281b11e3c726b386.setContent(html_b4b3b15f2e8741b3724e50a19724123d);
+            
+        
+
+        marker_58f9d678a450212021cb00b5a623aab9.bindPopup(popup_7028ba35571e9f82281b11e3c726b386)
+        ;
+
+        
+    
+    
+            marker_58f9d678a450212021cb00b5a623aab9.bindTooltip(
+                `<div>
+                     Yemen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89302c4835cbef0c0ea4df7cf357ddf3 = L.marker(
+                [-18.9249604, 46.4416422],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_fb7991701fb096f90de53a9a2927cc9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00b2f2751d77a17d04acee6afb6f20da = $(`<div id="html_00b2f2751d77a17d04acee6afb6f20da" style="width: 100.0%; height: 100.0%;"><strong>Madagascar</strong><br>GDP per Capita: 0.27954<br>Healthy Life Expectancy: 0.37109</div>`)[0];
+                popup_fb7991701fb096f90de53a9a2927cc9f.setContent(html_00b2f2751d77a17d04acee6afb6f20da);
+            
+        
+
+        marker_89302c4835cbef0c0ea4df7cf357ddf3.bindPopup(popup_fb7991701fb096f90de53a9a2927cc9f)
+        ;
+
+        
+    
+    
+            marker_89302c4835cbef0c0ea4df7cf357ddf3.bindTooltip(
+                `<div>
+                     Madagascar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2164ca9ed95d97e7805a478945722e8b = L.marker(
+                [-6.5247123, 35.7878438],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_7cb8f4e6b37f76f8b94c1db4afd0180d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcb93fb9c73e5f6ebea14249621ab59f = $(`<div id="html_bcb93fb9c73e5f6ebea14249621ab59f" style="width: 100.0%; height: 100.0%;"><strong>Tanzania</strong><br>GDP per Capita: 0.47155<br>Healthy Life Expectancy: 0.357</div>`)[0];
+                popup_7cb8f4e6b37f76f8b94c1db4afd0180d.setContent(html_bcb93fb9c73e5f6ebea14249621ab59f);
+            
+        
+
+        marker_2164ca9ed95d97e7805a478945722e8b.bindPopup(popup_7cb8f4e6b37f76f8b94c1db4afd0180d)
+        ;
+
+        
+    
+    
+            marker_2164ca9ed95d97e7805a478945722e8b.bindTooltip(
+                `<div>
+                     Tanzania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a83b9eb5c78de366e47b5b9e8bfd07a = L.marker(
+                [5.7499721, -9.3658524],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_5a1e346c03a1b701e72bcf11421903d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ac59047209a60443283a9c399af78b6 = $(`<div id="html_6ac59047209a60443283a9c399af78b6" style="width: 100.0%; height: 100.0%;"><strong>Liberia</strong><br>GDP per Capita: 0.10706<br>Healthy Life Expectancy: 0.23165</div>`)[0];
+                popup_5a1e346c03a1b701e72bcf11421903d4.setContent(html_6ac59047209a60443283a9c399af78b6);
+            
+        
+
+        marker_0a83b9eb5c78de366e47b5b9e8bfd07a.bindPopup(popup_5a1e346c03a1b701e72bcf11421903d4)
+        ;
+
+        
+    
+    
+            marker_0a83b9eb5c78de366e47b5b9e8bfd07a.bindTooltip(
+                `<div>
+                     Liberia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed3bd378b89a06bfbc540ca851416572 = L.marker(
+                [10.7226226, -10.7083587],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_14e62b0657281b1b9ee92d99b573a9c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b1ad51277ca97213ac7bf0e13d4bba1 = $(`<div id="html_1b1ad51277ca97213ac7bf0e13d4bba1" style="width: 100.0%; height: 100.0%;"><strong>Guinea</strong><br>GDP per Capita: 0.22415<br>Healthy Life Expectancy: 0.18829</div>`)[0];
+                popup_14e62b0657281b1b9ee92d99b573a9c2.setContent(html_1b1ad51277ca97213ac7bf0e13d4bba1);
+            
+        
+
+        marker_ed3bd378b89a06bfbc540ca851416572.bindPopup(popup_14e62b0657281b1b9ee92d99b573a9c2)
+        ;
+
+        
+    
+    
+            marker_ed3bd378b89a06bfbc540ca851416572.bindTooltip(
+                `<div>
+                     Guinea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_440470c71e2827b503903205ea4ac78b = L.marker(
+                [-1.9646631, 30.0644358],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_83a2a6e9b7946c853b1795f346c9dcc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d43c89b267d87c037469f30798da32b6 = $(`<div id="html_d43c89b267d87c037469f30798da32b6" style="width: 100.0%; height: 100.0%;"><strong>Rwanda</strong><br>GDP per Capita: 0.32846<br>Healthy Life Expectancy: 0.31865</div>`)[0];
+                popup_83a2a6e9b7946c853b1795f346c9dcc7.setContent(html_d43c89b267d87c037469f30798da32b6);
+            
+        
+
+        marker_440470c71e2827b503903205ea4ac78b.bindPopup(popup_83a2a6e9b7946c853b1795f346c9dcc7)
+        ;
+
+        
+    
+    
+            marker_440470c71e2827b503903205ea4ac78b.bindTooltip(
+                `<div>
+                     Rwanda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f60ae7bd2be42d96626024e3eb315a0f = L.marker(
+                [9.5293472, 2.2584408],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_0f1f9b3114da10036f2de926b5a0e381 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a4a341b88b99d6969b2e14d950aa566 = $(`<div id="html_5a4a341b88b99d6969b2e14d950aa566" style="width: 100.0%; height: 100.0%;"><strong>Benin</strong><br>GDP per Capita: 0.39499<br>Healthy Life Expectancy: 0.21028</div>`)[0];
+                popup_0f1f9b3114da10036f2de926b5a0e381.setContent(html_5a4a341b88b99d6969b2e14d950aa566);
+            
+        
+
+        marker_f60ae7bd2be42d96626024e3eb315a0f.bindPopup(popup_0f1f9b3114da10036f2de926b5a0e381)
+        ;
+
+        
+    
+    
+            marker_f60ae7bd2be42d96626024e3eb315a0f.bindTooltip(
+                `<div>
+                     Benin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bbbd23cbe682c3590ff67533a261c15 = L.marker(
+                [33.7680065, 66.2385139],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_aabe676536b72310b38e1fcddab7a233 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f69f116767e3316e69b5d5268a6fa8d = $(`<div id="html_5f69f116767e3316e69b5d5268a6fa8d" style="width: 100.0%; height: 100.0%;"><strong>Afghanistan</strong><br>GDP per Capita: 0.38227<br>Healthy Life Expectancy: 0.17344</div>`)[0];
+                popup_aabe676536b72310b38e1fcddab7a233.setContent(html_5f69f116767e3316e69b5d5268a6fa8d);
+            
+        
+
+        marker_9bbbd23cbe682c3590ff67533a261c15.bindPopup(popup_aabe676536b72310b38e1fcddab7a233)
+        ;
+
+        
+    
+    
+            marker_9bbbd23cbe682c3590ff67533a261c15.bindTooltip(
+                `<div>
+                     Afghanistan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_678535086db0897c41b1e2691ec90704 = L.marker(
+                [8.7800265, 1.0199765],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_de2a73ead0fb12415930cac217c3b557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96dcac763030ff8f553690ddafa55cb4 = $(`<div id="html_96dcac763030ff8f553690ddafa55cb4" style="width: 100.0%; height: 100.0%;"><strong>Togo</strong><br>GDP per Capita: 0.28123<br>Healthy Life Expectancy: 0.24811</div>`)[0];
+                popup_de2a73ead0fb12415930cac217c3b557.setContent(html_96dcac763030ff8f553690ddafa55cb4);
+            
+        
+
+        marker_678535086db0897c41b1e2691ec90704.bindPopup(popup_de2a73ead0fb12415930cac217c3b557)
+        ;
+
+        
+    
+    
+            marker_678535086db0897c41b1e2691ec90704.bindTooltip(
+                `<div>
+                     Togo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_056481370e7feafae907458eccb080a6 = L.marker(
+                [34.8147886, 38.42317811509885],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_e042210abfa6a5377fc22b5301a8ed5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_865dc56289562e58caad9f003c9abf58 = $(`<div id="html_865dc56289562e58caad9f003c9abf58" style="width: 100.0%; height: 100.0%;"><strong>Syria</strong><br>GDP per Capita: 0.74719<br>Healthy Life Expectancy: 0.62994</div>`)[0];
+                popup_e042210abfa6a5377fc22b5301a8ed5d.setContent(html_865dc56289562e58caad9f003c9abf58);
+            
+        
+
+        marker_056481370e7feafae907458eccb080a6.bindPopup(popup_e042210abfa6a5377fc22b5301a8ed5d)
+        ;
+
+        
+    
+    
+            marker_056481370e7feafae907458eccb080a6.bindTooltip(
+                `<div>
+                     Syria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fd953618bd56fc4e4e1c86004602b29 = L.marker(
+                [-3.426449, 29.9324519],
+                {}
+            ).addTo(marker_cluster_0e7e7152570790c48c4cccc81628187f);
+        
+    
+        var popup_af6309a43111d9fd91f7e4cefd605c09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68a9b31696c5a82ac7b6b103e933d5f9 = $(`<div id="html_68a9b31696c5a82ac7b6b103e933d5f9" style="width: 100.0%; height: 100.0%;"><strong>Burundi</strong><br>GDP per Capita: 0.06831<br>Healthy Life Expectancy: 0.15747</div>`)[0];
+                popup_af6309a43111d9fd91f7e4cefd605c09.setContent(html_68a9b31696c5a82ac7b6b103e933d5f9);
+            
+        
+
+        marker_6fd953618bd56fc4e4e1c86004602b29.bindPopup(popup_af6309a43111d9fd91f7e4cefd605c09)
+        ;
+
+        
+    
+    
+            marker_6fd953618bd56fc4e4e1c86004602b29.bindTooltip(
+                `<div>
+                     Burundi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_0e7e7152570790c48c4cccc81628187f.addTo(map_eae8ed60f41f40972e20e3135fff558f);
+        
+    
+            tile_layer_0a013a401ceeb0e62dee97161be3b712.addTo(map_eae8ed60f41f40972e20e3135fff558f);
+        
+    
+            marker_cluster_0e7e7152570790c48c4cccc81628187f.addTo(map_eae8ed60f41f40972e20e3135fff558f);
+        
+</script>
+</html>
