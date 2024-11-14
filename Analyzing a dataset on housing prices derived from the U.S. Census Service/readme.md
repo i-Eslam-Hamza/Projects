@@ -65,7 +65,7 @@ The dataset has **506 observations** with **13 numerical attributes**:
 - **Monitor Industrial Influence**: Impact on desirability due to pollution.
 
 ## Code
-[NBviewer for this project]()
+[ReviewNB for this project](https://app.reviewnb.com/i-Eslam-Hamza/Projects/blob/main/Analyzing%20a%20dataset%20on%20housing%20prices%20derived%20from%20the%20U.S.%20Census%20Service/Analyzing%20a%20dataset%20on%20housing%20prices%20derived%20from%20the%20U.S.%20Census%20Service.ipynb/file/)
 
 ## 🙏 Acknowledgments
 Thanks to the authors of the **IBM Statistics for Data Science with Python** course for their guidance and the U.S. Census Service for the dataset.
