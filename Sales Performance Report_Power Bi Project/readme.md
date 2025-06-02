@@ -76,7 +76,7 @@ This Power BI project presents an interactive sales dashboard built from a datas
 ## 📌 Screenshots
 
 <p align="center">
-  <img src="Documentation\Screenshots" alt="Dashboard Overview" width="800"/>
+  <img src="Sales Performance Report_Power Bi Project/Documentation/Screenshots/Sales_Report.png" alt="Dashboard Overview" width="800"/>
 </p>
 
 ---
