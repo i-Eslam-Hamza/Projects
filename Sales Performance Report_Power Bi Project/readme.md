@@ -15,7 +15,7 @@ This Power BI project presents an interactive sales dashboard built from a datas
 
 ## 📁 Dataset Overview
 
-- **Source**: "Data\src\CustomerLoyaltyProgram.csv"
+- **Source**: [data.csv](Data\src\CustomerLoyaltyProgram.csv)
 - **Size**: 63,228 rows × 29 columns
 - **Format**: CSV
 - **Content**: Sales transactions including customer details, product lines, pricing, profit, location, and more
@@ -79,10 +79,18 @@ This Power BI project presents an interactive sales dashboard built from a datas
   <img src="Documentation/Screenshots/Sales_Report.png" alt="Dashboard Overview" width="800"/>
 </p>
 
+<p align="center">
+  <img src="Documentation/Screenshots/Sales_report_revenue_by_location.png" alt="Dashboard Overview" width="800"/>
+</p>
+
+<p align="center">
+  <img src="Documentation/Screenshots/changes_in_revenue_profit.png" alt="Dashboard Overview" width="800"/>
+</p>
+
 ---
 
 ## 📬 Contact
 
-If you have any questions or feedback, feel free to reach out via [LinkedIn](#linkedin.com/in/eslam-hamza-ba8393315) or [email](mailto:ieslamhamza@gmail.com).
+If you have any questions or feedback, feel free to reach out via [LinkedIn](linkedin.com/in/eslam-hamza-ba8393315) or [email](mailto:ieslamhamza@gmail.com).
 
 
