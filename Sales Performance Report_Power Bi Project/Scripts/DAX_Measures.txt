@@ -1,0 +1,52 @@
+DAX MEASURES
+--------------------------------------------------------------------------------------------------------
+CalendarTable = 
+				ADDCOLUMNS(
+					CALENDAR(DATE(2020, 1, 1), DATE(2023, 12, 31)),
+					"Year", YEAR([Date]),
+					"Month Number", MONTH([Date]),
+					"Month", FORMAT([Date], "MMMM"),
+					"Quarter", QUARTER([Date]),
+					"Weekday", WEEKDAY([Date]),
+					"Day", DAY([Date])
+										)
+--------------------------------------------------------------------------------------------------------
+Median Sales = MEDIAN('Sales in USD'[Gross Revenue USD])
+--------------------------------------------------------------------------------------------------------
+Profit Margin = SUM('Sales in USD'[Net Revenue USD])
+				/ SUM('Sales in USD'[Gross Revenue USD])
+--------------------------------------------------------------------------------------------------------
+Quarterly Profit = 
+					CALCULATE(
+						SUM('Sales in USD'[Net Revenue USD]),
+						DATESQTD(CalendarTable[Date])
+								)
+--------------------------------------------------------------------------------------------------------
+Yearly Profit = 
+				CALCULATE(
+					SUM('Sales in USD'[Net Revenue USD]),
+					DATESYTD(CalendarTable[Date])
+							)
+--------------------------------------------------------------------------------------------------------
+YTD Profit = 
+				TOTALYTD( 
+					SUM('Sales in USD'[Gross Revenue USD]),
+					'CalendarTable'[Date] 
+							)
+--------------------------------------------------------------------------------------------------------
+Sales in USD = 
+				ADDCOLUMNS( Sales,
+					"Country Name", RELATED(Countries[Country]),
+					"Exchange Rate", RELATED('Exchange Data'[Exchange Rate]),
+					"Exchange Currency", RELATED('Exchange Data'[Exchange Currency]),
+					"Gross Revenue USD", [Gross Revenue] * RELATED('Exchange Data'[Exchange Rate]),
+					"Net Revenue USD", [Net Revenue] * RELATED('Exchange Data'[Exchange Rate]),
+					"Total Tax USD", [Total Tax] * RELATED('Exchange Data'[Exchange Rate])
+									)
+--------------------------------------------------------------------------------------------------------
+Yearly Profit Margin =
+						DIVIDE(
+							'Sales in USD'[Net Revenue USD],
+							'Sales in USD'[Gross Revenue USD]
+								)
+--------------------------------------------------------------------------------------------------------
