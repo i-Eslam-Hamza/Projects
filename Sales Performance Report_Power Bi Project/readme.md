@@ -91,6 +91,6 @@ This Power BI project presents an interactive sales dashboard built from a datas
 
 ## 📬 Contact
 
-If you have any questions or feedback, feel free to reach out via [LinkedIn](linkedin.com/in/eslam-hamza-ba8393315) or [email](mailto:ieslamhamza@gmail.com).
+If you have any questions or feedback, feel free to reach out via [LinkedIn](https://linkedin.com/in/eslam-hamza-ba8393315) or [email](mailto:ieslamhamza@gmail.com).
 
 
