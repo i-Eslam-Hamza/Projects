@@ -121,7 +121,7 @@ This comprehensive analytics solution enables Tailwind Traders to:
 
 ## 🎓 Learning Outcomes
 
-Through this capstone project, I demonstrated proficiency in:
+Through this project, I demonstrated proficiency in:
 - End-to-end business intelligence solution development
 - Advanced Power BI functionality implementation
 - Data storytelling through effective visualizations
